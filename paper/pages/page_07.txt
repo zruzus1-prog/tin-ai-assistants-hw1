@@ -1,0 +1,36 @@
+www.nature.com/scientificreports/
+7Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Such irradiation intensity was chosen to match the relevant parameter used in earlier studies to access photo-
+thermal therapeutic activity of nanostructures 5,7,23,43. Our tests showed that viability and growth of spheroids 
+depended on both concentration of TiN NPs and laser irradiation time. The increase of TiN NPs concentration 
+led to a significant reduction of both spheroids area and viability after laser irradiation for 10 min as shown in 
+Fig. 8a. In particular, no significant effect was observed for 1 μg mL
+− 1, while the increase of concentration up to 
+10 μg mL− 1 led to 17.2 ± 5.6% and 18.4 ± 17.5% decrease in area and viability of spheroids correspondingly. The 
+laser-induced effects also increased with the increase of laser exposure time, causing a noticeable reduction of 
+spheroids area and the accumulation of cell debris after three days of incubation as shown in Fig. 8b. In particular, 
+the area and viability of spheroids were significantly reduced as compared to controls with the highest reduction 
+for 15 min of laser exposure (24.7 ± 6.4% decrease of area and 49.7 ± 22.6% decrease of viability).
+Thus, four days of incubation with 10 μg mL
+− 1 of TiN NPs and laser exposure for 10 min proved to be suf-
+ficient to induce significant toxic effect. These results outperform the photothermal effect of commercial TiN 
+NPs obtained by He et al.
+23. on 4T1 cells (mouse breast tumor model). Indeed, almost no reduction of 4T1 cells 
+viability was observed after the treatment by 12.5 μg mL− 1 of poly(ethylene) glycol (PEG) – coated TiN NPs and 
+808 nm CW laser irradiation with 2 W cm− 2 intensity for 5 min, although for HeLa cells, treated with the same 
+parameters, 20% reduction of cells viability was recorded. Notice that TiN NPs used in their study had irregular 
+elongated cigar-like shape with 20 nm average diameter and 100 nm length, which is much larger than renal glo-
+merular filtration size that may lead to the accumulation of such NPs in organism.
+In contrast, laser ablative synthesis results in smaller TiN NPs with sizes down to 4 nm (Fig. 2d), which may 
+be easily cleared from the organism. Thus, laser ablative approach for synthesizing TiN NPs, described here is the 
+versatile tool for size-controllable production of such NPs.
+Conclusions
+Ultrapure TiN NPs were prepared by fs laser ablation and fragmentation in acetone and water. NPs were highly 
+crystalline with presence of minor titanium oxide fraction. We demonstrated the possibility to tune NPs size by 
+changing laser pulse energy, while implementation of additional fs laser fragmentation step resulted in reduction 
+of mean NPs size down to 4 nm and significant narrowing of size distribution, which brings laser-synthesized 
+TiN NPs to important renal glomerular filtration range (< 7 nm). At the same time optical extinction spectra 
+demonstrated a very broad plasmon – related extinction peak in near IR between 640 and 700 nm, where tissues 
+Figure 6. (a) Bright–field photomicrographs of growing spheroids of U87– MG cells exposed to different 
+concentrations of TiN NPs, (b) dose- and time-dependence of spheroids area, (c) viability of spheroids at day 13 
+of their exposure to different concentrations of TiN NPs.

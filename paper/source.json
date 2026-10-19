@@ -1,0 +1,83 @@
+{
+  "title": "Laser-ablative synthesis of plasmonic TiN nanoparticles for biomedical applications",
+  "doi": "10.1038/s41598-018-37519-1",
+  "year": 2019,
+  "authors": [
+    "Anton A. Popov",
+    "Gleb Tselikov",
+    "Noé Dumas",
+    "Charlotte Bérard",
+    "Khaled Metwally",
+    "Nicola Jones",
+    "Ahmed Al-Kattan",
+    "Benoît Larrat",
+    "Diane Braguer",
+    "Serge Mensah",
+    "Anabela Da Silva",
+    "Marie-Anne Estève",
+    "Andrei V. Kabashin"
+  ],
+  "page_count": 11,
+  "url": "https://www.nature.com/articles/s41598-018-37519-1",
+  "pdf_url": "https://www.nature.com/articles/s41598-018-37519-1.pdf",
+  "license": "CC BY 4.0",
+  "pdf_sha256": "b7eaef30d804760873519cd57bebf48027852dc9ab2881d5b4225c5699d88cc2",
+  "pages": [
+    {
+      "page": 1,
+      "file": "paper/pages/page_01.txt",
+      "sha256": "bc4181c369872017c0fad6c0808c4fa7cc6de231cc84b52ffa32bc8980cbc664"
+    },
+    {
+      "page": 2,
+      "file": "paper/pages/page_02.txt",
+      "sha256": "bcececee68a69a9b35e72a5f59a6d5986b25c1f9520e5e8db58b8be1f6782ca3"
+    },
+    {
+      "page": 3,
+      "file": "paper/pages/page_03.txt",
+      "sha256": "23f18767ad2a86e7f239d43fc50dc8b417b54a2c73044e04d3ef217d313641b9"
+    },
+    {
+      "page": 4,
+      "file": "paper/pages/page_04.txt",
+      "sha256": "11d9fa014a6cba018bf6322dc1f2e93e37776dc29f62345fe392c34e2e6a38d9"
+    },
+    {
+      "page": 5,
+      "file": "paper/pages/page_05.txt",
+      "sha256": "765aff3b60645ef18e603b5838f8c4fa139472c107c128d4861ba0c293500200"
+    },
+    {
+      "page": 6,
+      "file": "paper/pages/page_06.txt",
+      "sha256": "9415e0a560c2f5677f6d88d8c84a13f66fc3c469e4e661bca6f1123b8d0faea6"
+    },
+    {
+      "page": 7,
+      "file": "paper/pages/page_07.txt",
+      "sha256": "d6bfe8ac4387cfbeb0bad2c6ced643f3b3361045163c63ea4d1bcfd2e5303d4a"
+    },
+    {
+      "page": 8,
+      "file": "paper/pages/page_08.txt",
+      "sha256": "cd20a795e839e60a0d482607216683bb542aec1408ae79ea41ac3bb69af8cb94"
+    },
+    {
+      "page": 9,
+      "file": "paper/pages/page_09.txt",
+      "sha256": "e87be572d0d74aa2e42e882f6bc22d97baed0dbb5ef33cf616f077c674af619b"
+    },
+    {
+      "page": 10,
+      "file": "paper/pages/page_10.txt",
+      "sha256": "28fd137da472ff2a0fec4fb7573d60329cf013a472cf86182d303becf73832f8"
+    },
+    {
+      "page": 11,
+      "file": "paper/pages/page_11.txt",
+      "sha256": "52282e62ddc244cab060571d37785b02ee4b885f59daba40ed4a71f68c4e30bb"
+    }
+  ],
+  "origin": "Local immutable PDF from исходного исследовательского проекта, copied without changing the original"
+}

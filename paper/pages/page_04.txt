@@ -1,0 +1,14 @@
+www.nature.com/scientificreports/
+4Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+cell monolayers by the alamarBlue assay after 72 h of continuous exposure to TiN NPs with concentrations up to 
+10 μg mL− 1. As shown in Fig. 5, the highest non-toxic concentration of TiN NPs for U87–MG was 10 μg mL− 1. For 
+all concentrations below this level the cell viability profile was higher than 90% (91 ± 3%). HMEC–1 cells survival 
+was slightly lowered (71 ± 3%) for concentration of TiN NPs starting from 0.5 μg mL− 1 with no further decrease 
+at higher concentrations. The reduction of 2D cell culture viability by less than 30% and 10% for HMEC–1 and 
+U87–MG, respectively, under relatively high concentrations (up to 10 μg mL−1 ) suggest a satisfactory low toxicity 
+of TiN NPs. This result suggests that a special attention should be paid on vascular endothelium when toxicity of 
+Figure 2. (a) HR-TEM image of TiN NP synthesized by pulsed laser ablation in acetone. (b) SAED pattern of 
+TiN NPs with rings sequence typical for FCC lattice (see Table 1 for details). (c) Size distribution of TiN NPs 
+synthesized by laser ablation in acetone at 100 μJ pulse energy and (d) after laser fragmentation in acetone. 
+Insets show typical TEM images of corresponding TiN NPs; (e) TEM image of TiN NPs synthesized by laser 
+ablation in water having multiple interior cavities and linked by amorphous non-spherical flakes.

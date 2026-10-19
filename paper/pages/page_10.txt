@@ -1,0 +1,80 @@
+www.nature.com/scientificreports/
+10Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+ 6. Loo, C., Lowery, A., Halas, N., West, J. & Drezek, R. Immunotargeted nanoshells for integrated cancer imaging and therapy. Nano 
+Lett. 5, 709–711 (2005).
+ 7. Huang, X., El-Sayed, I. H., Qian, W . & El-Sayed, M. A. Cancer cell imaging and photothermal therapy in the near-infrared region by 
+using gold nanorods. J. Am. Chem. Soc. 128, 2115–2120 (2006).
+ 8. Sokolov, K. et al. Real-time vital optical imaging of precancer using anti-epidermal growth factor receptor antibodies conjugated to 
+gold nanoparticles. Cancer Res. 63, 1999–2004 (2003).
+ 9. Gobin, A. M. et al. Near-infrared resonant nanoshells for combined optical imaging and photothermal cancer therapy. Nano Lett. 7, 
+1929–1934 (2007).
+ 10. Wang, Y . et al. Photoacoustic tomography of a nanoshell contrast agent in the in vivo rat brain. Nano Lett. 4, 1689–1692 (2004).
+ 11. Yu, M. & Zheng, J. Clearance pathways and tumor targeting of imaging nanoparticles. ACS Nano 9, 6655–6674 (2015).
+ 12. James, W . D., Hirsch, L. R., West, J. L., O’Neal, P . D. & Payne, J. D. Application of INAA to the build-up and clearance of gold 
+nanoshells in clinical studies in mice. J. Radioanal. Nucl. Chem. 271, 455–459 (2007).
+ 13. Dasgupta, S., Auth, T. & Gompper, G. Shape and orientation matter for the cellular uptake of nonspherical particles. Nano Lett. 14, 
+687–693 (2014).
+ 14. Chithrani, B. D., Ghazani, A. A. & Chan, W . C. W . Determining the size and shape dependence of gold nanoparticle uptake into 
+mammalian cells. Nano Lett. 6, 662–668 (2006).
+ 15. Li, Z. et al. RGD-conjugated dendrimer-modified gold nanorods for in vivo  tumor targeting and photothermal therapy†. Mol. 
+Pharm. 7, 94–104 (2010).
+ 16. Quinten, M. The color of finely dispersed nanoparticles. Appl. Phys. B Lasers Opt. 73, 317–326 (2001).
+ 17. Reinholdt, A. et al. Structural, compositional, optical and colorimetric characterization of TiN-nanoparticles. Eur. Phys. J. D 31, 
+69–76 (2004).
+ 18. Guler, U., Naik, G. V ., Boltasseva, A., Shalaev, V . M. & Kildishev, A. V . Performance analysis of nitride alternative plasmonic materials 
+for localized surface plasmon applications. Appl. Phys. B Lasers Opt. 107, 285–291 (2012).
+ 19. Guler, U., Shalaev, V . M. & Boltasseva, A. Nanoparticle plasmonics: going practical with transition metal nitrides. Mater. Today 18, 
+227–237 (2015).
+ 20. Guler, U., Suslov, S., Kildishev, A. V ., Boltasseva, A. & Shalaev, V . M. Colloidal plasmonic titanium nitride nanoparticles: properties 
+and applications. Nanophotonics 4, 269–276 (2015).
+ 21. Lalisse, A., Tessier, G., Plain, J. & Baffou, G. Plasmonic efficiencies of nanoparticles made of metal nitrides (TiN, ZrN) compared 
+with gold. Sci. Rep. 6, 38647 (2016).
+ 22. van Hove, R. P ., Sierevelt, I. N., van Royen, B. J. & Nolte, P . A. Titanium-nitride coating of orthopaedic implants: a review of the 
+literature. Biomed Res. Int. 2015, 1–9 (2015).
+ 23. He, W . et al. Plasmonic titanium nitride nanoparticles for in vivo  photoacoustic tomography imaging and photothermal cancer 
+therapy. Biomaterials 132, 37–47 (2017).
+ 24. Y ang, X., Li, C., Y ang, L., Y an, Y . & Qian, Y . Reduction-nitridation synthesis of titanium nitride nanocrystals. J. Am. Ceram. Soc. 86, 
+206–208 (2003).
+ 25. Zhang, H., Li, F . & Jia, Q. Preparation of titanium nitride ultrafine powders by sol–gel and microwave carbothermal reduction 
+nitridation methods. Ceram. Int. 35, 1071–1075 (2009).
+ 26. Li, J. et al. Synthesis of nanocrystalline titanium nitride powders by direct nitridation of titanium oxide. J. Am. Ceram. Soc. 84, 
+3045–3047 (2001).
+ 27. Tavares, J., Coulombe, S. & Meunier, J.-L. Synthesis of cubic-structured monocrystalline titanium nitride nanoparticles by means of 
+a dual plasma process. J. Phys. D. Appl. Phys. 42, 102001 (2009).
+ 28. Kumar, S. M., Murugan, K., Chandrasekhar, S. B. & Hebalkar, N. Synthesis and characterization of nano silicon and titanium nitride. 
+J. Chem. Sci. 124, 557–563 (2012).
+ 29. Alvarez Barragan, A., Ilawe, N. V ., Zhong, L., Wong, B. M. & Mangolini, L. A Non-Thermal Plasma Route to Plasmonic TiN 
+Nanoparticles. J. Phys. Chem. C 121, 2316–2322 (2017).
+ 30. Kabashin, A. V . & Meunier, M. Synthesis of colloidal nanoparticles during femtosecond laser ablation of gold in water. J. Appl. Phys. 
+94, 7941 (2003).
+ 31. Kabashin, A. V . & Meunier, M. Femtosecond laser ablation in aqueous solutions: a novel method to synthesize non-toxic metal 
+colloids with controllable size. J. Phys. Conf. Ser. 59, 354–359 (2007).
+ 32. Sylvestre, J. P ., Kabashin, A. V ., Sacher, E. & Meunier, M. Femtosecond laser ablation of gold in water: Influence of the laser-produced 
+plasma on the nanoparticle size distribution. Appl. Phys. A Mater. Sci. Process. 80, 753–758 (2005).
+ 33. Sylvestre, J. P . et al. Surface chemistry of gold nanoparticles produced by laser ablation in aqueous media. J. Phys. Chem. B 108, 
+16864–16869 (2004).
+ 34. Besner, S., Kabashin, A. V . & Meunier, M. Fragmentation of colloidal nanoparticles by femtosecond laser-induced supercontinuum 
+generation. Appl. Phys. Lett. 89, 1–4 (2006).
+ 35. Maximova, K., Aristov, A., Sentis, M. & Kabashin, A. V . Size-controllable synthesis of bare gold nanoparticles by femtosecond laser 
+fragmentation in water. Nanotechnology 26, 065601 (2015).
+ 36. Correard, F. et al. Gold nanoparticles prepared by laser ablation in aqueous biocompatible solutions: assessment of safety and 
+biological identity for nanomedicine applications. Int. J. Nanomedicine 9, 5415–30 (2014).
+ 37. Hiemenz, P . C. & Rajagopalan, R. Principles of Colloid and Surface Chemistry. (CRC Press), https://doi.org/10.1201/9781315274287 
+(1997).
+ 38. Robinson, J. T. et al. High performance in vivo near-IR (>1 μm) imaging and photothermal cancer therapy with carbon nanotubes. 
+Nano Res. 3, 779–793 (2010).
+ 39. Baffou, G. & Quidant, R. Thermo-plasmonics: using metallic nanostructures as nano-sources of heat. Laser Photon. Rev. 7, 171–187 
+(2013).
+ 40. Thoma, C. R., Zimmermann, M., Agarkova, I., Kelm, J. M. & Krek, W . 3D cell culture systems modeling tumor growth determinants 
+in cancer target discovery. Adv. Drug Deliv. Rev. 69–70, 29–41 (2014).
+ 41. Leong, D. T. & Ng, K. W . Probing the relevance of 3D cancer models in nanomedicine research. Adv. Drug Deliv. Rev. 79–80, 95–106 
+(2014).
+ 42. Busch, W . et al. Internalisation of engineered nanoparticles into mammalian cells in vitro : influence of cell type and particle 
+properties. J. Nanoparticle Res. 13, 293–310 (2011).
+ 43. O’Neal, D. P ., Hirsch, L. R., Halas, N. J., Payne, J. D. & West, J. L. Photo-thermal tumor ablation in mice using near infrared-
+absorbing nanoparticles. Cancer Lett. 209, 171–176 (2004).
+ 44. Al-Kattan, A. et al. Ultrapure laser-synthesized Si nanoparticles with variable oxidation states for biomedical applications. J. Mater. 
+Chem. B 4, 7852–7858 (2016).
+ 45. Lábár, J. L. Consistent indexing of a (set of) single crystal SAED pattern(s) with the ProcessDiffraction program. Ultramicroscopy 
+103, 237–249 (2005).
+ 46. Schindelin, J. et al. Fiji: an open-source platform for biological-image analysis. Nat. Methods 9, 676–682 (2012).

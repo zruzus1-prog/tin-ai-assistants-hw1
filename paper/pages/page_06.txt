@@ -1,0 +1,55 @@
+www.nature.com/scientificreports/
+6Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Similar results were obtained with 3D cell cultures in spheroids form, which are more representative of 
+tumors-related objects as their cell morphology and phenotype are similar to those found in the original tissue 
+architecture (tumors). Such spheroids are typically composed of clusters of cells with a dense tissue and a com-
+plex cellular organization due to absence of a culture plastic substrate. In addition, they have diffusional limits 
+to transport of drugs, nutrients and other factors similar to in vivo tissues
+40,41. Safety of TiN NPs was assessed on 
+U87–MG cells grown as spheroids and continuously exposed to different concentrations of TiN NPs for 13 days. 
+Concentrations of 1 μg mL
+− 1 and lower caused no evident morphological alterations of spheroids as compared 
+to controls (Fig. 6a). However, after two weeks of exposure spheroids treated with doses of TiN NPs higher than 
+5 μg mL− 1 exhibited irregular shapes and smaller cross-sectional areas as compared to controls. Moreover, after 
+two weeks of continuous exposure, a loss of cell cohesion and the presence of debris were also visible for TiN NPs 
+concentrations 5 μg mL
+−1  and above.
+Quantification of spheroid cross sectional area on bright-field photomicrographs during the 13 days of expo-
+sure showed a dose- and time-dependent effect of TiN NPs on the growth of spheroids as shown in Fig.  6b. No 
+significant reduction in cross-sectional area was observed at concentrations up to 1 μg mL− 1, however, a gradually 
+reduced area was observed at higher doses of TiN NPs. Indeed, at day 13 of exposure spheroids exposed to con-
+centrations 5 μg mL
+− 1 and above showed a statistically significant (t-test p values < 0.03) smaller cross-sectional 
+area as compared to controls by 6 ± 5%, 22 ± 8% and 37 ± 8% for 5 μg mL− 1, 10 μg mL− 1 and 15 μg mL− 1 
+respectively.
+The viability assay performed on spheroids at day 13 of exposure did not show any significant toxicity of TiN 
+NPs for concentrations up to 5 μg mL− 1, which corresponds to the viability of cell culture 93 ± 9% as shown in 
+Fig. 6c. Above this concentration, the decrease in cell viability was statistically significant (t-test p values < 0.002), 
+but remained low with viability reaching 77 ± 8% and 74 ± 11% for TiN NPs concentrations 10 μg mL− 1 and 
+15 μg mL− 1 respectively. Thus, spheroids showed no morphological alterations for doses up to 1 μg mL− 1, despite a 
+four-fold longer exposure duration to TiN NPs as compared to 2D cultures. Moreover, viability assay performed 
+at day 13 of TiN NPs exposure agreed with the morphological examination of spheroids as no toxic effect was 
+observed up to a concentration of 1 μg mL
+− 1. Higher concentrations of TiN NPs limited the growth of spheroids 
+and caused slight reduction of cells viability of at most 26%. Overall, our study indicates a low toxicity profile of 
+TiN NPs in vitro.
+Successful plasmonic-based imaging and photothermal therapy of tumors depends on the ability of NPs to 
+enter cancer cells. To assess cell uptake of laser-synthesized TiN NPs, we used spheroids of human cancer cells 
+and exposed them to TiN NPs concentration of 1 μg mL
+− 1 for 10 days. Then, the spheroids were examined by 
+TEM to study the intracellular fate of NPs. Such measurements reported the presence of TiN NPs as clusters 
+inside endosomes (Fig. 7). In contrast, our tests did not reveal any accumulation of NPs in lysosomes, nuclei, or 
+any other intracellular structure. Altogether, these data demonstrated that TiN NPs synthesized by laser ablation 
+can enter human cancer cells. Morphology of cell organelles including nucleus and mitohondria were normal, 
+further confirming low toxicity effect of TiN NPs. Thus, all NPs were present as clusters inside endosomes, sug-
+gesting an active internalization via endocytosis, which is in agreement with the work of Busch et al.
+42, who stud-
+ied chemically synthesized TiN NPs with hydrodynamic diameter 160 nm and ζ-potential − 50 mV and found 
+them in endosomes, but not in nuclei of OLN–93 cells, 3 days after the treatment of cell culture 42. The fact that 
+TiN NPs were observed only in endosomal vesicles and not in lysosomes could suggest that the NPs were dis-
+solved inside lysosomes, or that they impaired the maturation process of endosomes into lysosomes.
+photothermal therapeutic tests. A combination of good optical extinction in tissue transparency win-
+dow and moderate toxicity of TiN NPs encouraged us to explore their in vitro photothermal activity. Spheroids of 
+U87–MG cells were incubated with 25 nm TiN NPs and irradiated by CW laser radiation (670 nm, 4.4 W cm− 2). 
+Figure 5. Viability of HMEC–1 (red line) and U87–MG (blue line) cells 2D cultures, assessed by resazurin 
+reduction as a function of TiN NPs concentration.

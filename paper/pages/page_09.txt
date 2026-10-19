@@ -1,0 +1,69 @@
+www.nature.com/scientificreports/
+9Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Characterization of nanoparticles. Morphology, structure and size of synthesized NPs were character-
+ized by the high-resolution transmission electron microscopy (HR-TEM) system (JEOL JEM 3010) operating at 
+300 kV and equipped with a Gatan Multiscan CCD in imaging and diffraction modes. Samples were prepared by 
+dropping 5 μL of NPs solution onto a carbon-coated TEM copper grid and subsequent drying at ambient con-
+ditions. Analysis of selected area electron diffraction (SAED) patterns was performed using ProcessDiffraction 
+v.8.7.1 software45 Uncertainty in determination of lattice constants was estimated as full width at half maximum 
+(FWHM) of diffraction rings after lognormal correction for background signal. ζ–potential measurements were 
+performed using a Zetasizer ZS instrument (Malvern Instruments, Orsay, France). Extinction spectra of NPs 
+solutions were measured by a UV– VIS spectrophotometer (UV–2600, Shimadzu) using 10 mm optical path 
+length quartz cuvettes. Concentrations of NPs solutions were determined by measuring target weight before and 
+after the ablation step. As the TiN target was produced by hot-pressing of a TiN powder and presented a porous 
+material, a prolonged drying step was required to determine the mass change correctly. Additional concentration 
+measurements were done using the inductively coupled plasma – mass spectrometry (ICP–MS) method.
+Cell cultures.  Safety of TiN NPs was evaluated on 2D culture of human microvascular endothelial cells 
+(HMEC–1) and 2D and 3D cultures of human glioblastoma cancer cells (U87–MG). Cells were obtained from 
+American Type Culture Collection (Manassas, V A, USA). HMEC–1 cells were maintained in MCDB 131 medium 
+(Gibco, UK) containing 10% of decomplemented fetal bovine serum, 2 mM L–Glutamine (Gibco, UK), 1% (v/v) 
+of penicillin/streptomycin solution (Gibco, UK) and 0.1% of epidermal growth factor. U87–MG cells were main-
+tained in EMEM (Lonza, Verviers, Belgium) supplemented with 10% of decomplemented fetal bovine serum, 
+2mM L–Glutamine and 1% (v/v) of penicillin/streptomycin.
+Viability assay using 2D cell cultures. 3000 cells for HMEC–1 and 4000 cells for U87–MG were seeded 
+on 96 – well plates and kept at 37 °C in a humidified incubator filled with 5% CO2. After 24 h of growth, culture 
+medium was replaced by 150 μL of fresh medium containing different concentrations of TiN NPs ranging from 
+0.025 to 10 μg mL− 1. After a 72 h of incubation cell viability was assessed using resazurin reduction protocol: 15 μL 
+of resazurin reagent (alamarBlue, Thermo Fisher Scientific) was added to each well, and incubated for 6 h before 
+fluorescence was measured by a microplate reader (POLARstar Omega, BMG LABTECH). All fluorescence data 
+were corrected by subtraction of the background signal from blank wells. Viability was calculated as a fluores-
+cence signal from a sample, normalized to the fluorescence signal from control wells not subjected to TiN NPs. 
+Experiments were repeated three times independently, with four wells for each experimental condition.
+Viability assay using 3D cell cultures.  To obtain U87–MG cells 3D culture in a form of spheroids, 
+cells growing in regular 2D cultures were rinsed once in phosphate buffered saline, then detached using 0.02% 
+Trypsin/EDTA (Gibco, UK), pelleted by centrifugation at 200 g for 5 min and finally resuspended in a fresh cul-
+ture medium supplemented with 20% methylcellulose and seeded on round-bottom 96 – well plates (Greiner 
+Bio–one, Courtaboeuf, France) at 1000 cells per well in 100 μL of medium. After 72 h of growth at 37 °C under 
+5% CO
+2 spheroids were formed and 100 μL of fresh medium containing different amounts of TiN NPs with final 
+concentrations from 0.1 to 15 μg mL−1  were added to wells. The spheroids growth was maintained for 13 days by 
+adding 10 μL of fresh medium per well three times a week and was monitored daily by measuring spheroid area 
+on bright–field photomicrographs (Eclipse Ts2–FL, Nikon). All images were segmented using a custom macro 
+script, written for ImageJ software
+46. At day 13 of exposure to TiN NPs cell viability was assessed by the resazurin 
+reduction protocol as described above for 2D cell culture, but with 20  μL of resazurin reagent per well and 18 h 
+of incubation.
+Assay of nanoparticles cell uptake. TiN NPs uptake in spheroids of U87–MG cells was studied by trans-
+mission electron microscope (JEOL, Japan) operating at 80 kV and equipped with Megaview III camera. Six 
+spheroids exposed to 1 μg mL− 1 of TiN NPs for 10 days were fixed with 2.5% glutaraldehyde in 0.1 M sodium 
+cacodylate buffer for 40 min, then washed again. Samples were progressively dehydrated with 50% to 100% etha-
+nol bathes, before being embedded in epoxy resin (EPON 812) with a series of bathes ranging from 33% to 100% 
+resin, and overnight polymerization at 55 °C. 60 nm sections of spheroids were obtained using Ultracut-E ultra-
+microtome (Reichert–Jung, USA) and contrasted by incubation in 5% uranyl acetate.
+Photothermal therapy tests on 3D cell cultures.  Photothermal effect of TiN NPs was studied by 
+exposing spheroids of U87–MG cells to different concentrations of TiN NPs for four days before laser treatment. 
+The wells were fully filled by the culture medium and sealed with a semi-permeable membrane (Breathe–Easy, 
+Diversified Biotech, Dedham, MA, USA) before laser exposure to avoid condensation on the microplate lids. 
+Spheroids were irradiated by continuous-wave (CW) laser (SLD1332V , 670 nm, 500 mW , Thorlabs) with an inten-
+sity of 4.4 W cm
+−2  (310 mW power, 3 mm beam diameter) for different exposure times varying from 1 to 15 min. 
+Spheroids area and viability were measured as described above.
+References
+ 1. Jain, P . K., Lee, K. S., El-Sayed, I. H. & El-Sayed, M. A. Calculated absorption and scattering properties of gold nanoparticles of 
+different size, shape, and composition: applications in biological imaging and biomedicine. J. Phys. Chem. B 110, 7238–7248 (2006).
+ 2. Nie, S. Probing single molecules and single nanoparticles by surface-enhanced Raman scattering. Science 275, 1102–1106 (1997).
+ 3. Kneipp, K. Surface-enhanced Raman scattering. Phys. Today 60, 40–46 (2007).
+ 4. Dreaden, E. C., Alkilany, A. M., Huang, X., Murphy, C. J. & El-Sayed, M. A. The golden age: gold nanoparticles for biomedicine. 
+Chem. Soc. Rev. 41, 2740–2779 (2012).
+ 5. Hirsch, L. R. et al. Nanoshell-mediated near-infrared thermal therapy of tumors under magnetic resonance guidance. Proc. Natl. 
+Acad. Sci. 100, 13549–13554 (2003).
