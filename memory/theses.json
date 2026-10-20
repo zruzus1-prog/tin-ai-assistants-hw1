@@ -1,0 +1,141 @@
+[
+  {
+    "id": "T1",
+    "claim": "Абляция TiN выполнялась фемтосекундным лазером Yb:KGW (1025 нм, диапазон 1–100 кГц) по мишени в деионизованной воде или ацетоне; 1–100 кГц — параметр лазера, а не режим каждого опыта.",
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "(Yb:KGW , 1025 nm, 1–100 kHz)"
+      },
+      {
+        "page": 2,
+        "quote": "was focused onto a TiN target placed on the bottom of a glass vessel filled with deionized water or acetone"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T2",
+    "claim": "Для 100 мкДж и 5 кГц время насыщения составляло 15 мин, а концентрация насыщения — около 100 мкг/мл.",
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "for 100 μJ pulse energy and 5 kHz repetition rate saturation time was 15 min"
+      },
+      {
+        "page": 2,
+        "quote": "about 100 μg mL"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T3",
+    "claim": "ζ-потенциал TiN NPs составлял −30 мВ, что выше порога устойчивости 20 мВ; среда измерения в L1 не указана.",
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "the surface potential of TiN NPs was − 30 mV"
+      },
+      {
+        "page": 2,
+        "quote": "higher than the stability threshold (20 mV)"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T4",
+    "claim": "При абляции в ацетоне рост энергии от 10 до 100 мкДж увеличивал средний диаметр NPs с 25 до 40 нм; в воде средний размер был около 30 нм.",
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "the increase of pulse energy from 10 to 100 μJ led to the increase of NPs mean diameter from 25 to 40 nm"
+      },
+      {
+        "page": 2,
+        "quote": "the mean size of synthesized TiN NPs was always around 30 nm"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T5",
+    "claim": "Дополнительная фемтосекундная фрагментация уменьшала средний размер TiN NPs до 4 нм; L1 относит этот результат к ацетону, но привязка к растворителю в этом окне не перепроверялась.",
+    "evidence": [
+      {
+        "page": 3,
+        "quote": "we observed a drastic decrease in the size of final TiN NPs down to 4 nm"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T6",
+    "claim": "Для 2D-культуры U87–MG наибольшая нетоксичная концентрация TiN NPs составляла 10 мкг/мл.",
+    "evidence": [
+      {
+        "page": 4,
+        "quote": "the highest non-toxic concentration of TiN NPs for U87–MG was 10 μg mL− 1"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T7",
+    "claim": "В сфероидах U87–MG после 13 суток воздействия морфология не менялась при ≤1 мкг/мл; при 5, 10 и 15 мкг/мл площадь уменьшалась на 6±5%, 22±8% и 37±8%, а выживаемость составляла 93±9%, 77±8% и 74±11%.",
+    "evidence": [
+      {
+        "page": 6,
+        "quote": "spheroids showed no morphological alterations for doses up to 1 μg mL− 1"
+      },
+      {
+        "page": 6,
+        "quote": "smaller cross-sectional area as compared to controls by 6 ± 5%, 22 ± 8% and 37 ± 8% for 5 μg mL− 1, 10 μg mL− 1 and 15 μg mL− 1"
+      },
+      {
+        "page": 6,
+        "quote": "which corresponds to the viability of cell culture 93 ± 9%"
+      },
+      {
+        "page": 6,
+        "quote": "viability reaching 77 ± 8% and 74 ± 11% for TiN NPs concentrations 10 μg mL− 1 and 15 μg mL− 1 respectively"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T8",
+    "claim": "Фототермия in vitro: сфероиды U87–MG с 25 нм TiN облучали CW 670 нм, 4,4 Вт/см²; при 10 мкг/мл и 10 мин площадь и выживаемость снижались на 17,2±5,6% и 18,4±17,5%, при 15 мин — на 24,7±6,4% и 49,7±22,6%.",
+    "evidence": [
+      {
+        "page": 6,
+        "quote": "incubated with 25 nm TiN NPs and irradiated by CW laser radiation (670 nm, 4.4 W cm− 2)"
+      },
+      {
+        "page": 7,
+        "quote": "the increase of concentration up to 10 μg mL− 1 led to 17.2 ± 5.6% and 18.4 ± 17.5% decrease in area and viability of spheroids correspondingly"
+      },
+      {
+        "page": 7,
+        "quote": "for 15 min of laser exposure (24.7 ± 6.4% decrease of area and 49.7 ± 22.6% decrease of viability)"
+      }
+    ],
+    "verification": "pending_student_review"
+  },
+  {
+    "id": "T9",
+    "claim": "В статье сохраняется расхождение единиц энергии: на с. 2 указано 100 μJ, на с. 8 — 10–100 mJ; возможная опечатка μJ/mJ не разрешена без авторского разъяснения.",
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "for 100 μJ pulse energy and 5 kHz repetition rate saturation time was 15 min"
+      },
+      {
+        "page": 8,
+        "quote": "the change of pulse energy from 10 mJ to 100 mJ led to a shift of lens position by 10 mm"
+      }
+    ],
+    "verification": "pending_student_review"
+  }
+]
