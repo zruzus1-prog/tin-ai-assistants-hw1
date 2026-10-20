@@ -1,5 +1,5 @@
 {
-  "version": "2.0.16",
+  "$schema": "https://opencode.ai/config.json",
   "model": "opencode/deepseek-v4.1-flash-free",
   "permissions": [
     {
@@ -116,6 +116,49 @@
       "action": "subagent",
       "resource": "*",
       "effect": "deny"
+    },
+    {
+      "action": "research_openalex_*",
+      "resource": "*",
+      "effect": "allow"
+    },
+    {
+      "action": "research_wikidata_*",
+      "resource": "*",
+      "effect": "allow"
+    },
+    {
+      "action": "edit",
+      "resource": "student_review.json",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "src/apply_student_review.py",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "REVIEW.html",
+      "effect": "deny"
     }
-  ]
+  ],
+  "mcp": {
+    "servers": {
+      "research": {
+        "type": "local",
+        "command": [
+          "python",
+          "src/run_research_mcp.py"
+        ],
+        "environment": {
+          "OPENALEX_API_KEY": "{env:OPENALEX_API_KEY}"
+        },
+        "codemode": false,
+        "timeout": {
+          "execution": 120000
+        }
+      }
+    }
+  }
 }

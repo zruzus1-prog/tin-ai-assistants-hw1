@@ -1,0 +1,10 @@
+[
+  {
+    "openalex_id": "W2913765141",
+    "doi": "https://doi.org/10.1038/s41598-018-37519-1",
+    "graph_title": "Laser- synthesized TiN nanoparticles as promising plasmonic alternative for biomedical applications",
+    "primary_title": "Laser-ablative synthesis of plasmonic TiN nanoparticles for biomedical applications",
+    "action": "Kept raw corpus title and frozen rankings for reproducibility. Use paper/source.json and the PDF for primary bibliography.",
+    "status": "unresolved_external_metadata_discrepancy"
+  }
+]

@@ -6,7 +6,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ipynb_checkpoints/
-paper/article.pdf
+# The selected paper is CC BY 4.0 and deliberately included with attribution.
 .opencode/
 opencode.jsonc
 *.log

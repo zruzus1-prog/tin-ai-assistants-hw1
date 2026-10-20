@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-10-20T00:19:33.802595+00:00",
+  "commands": [
+    {
+      "command": "python checks/check.py all",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "as_expected": true,
+      "stdout": "extraction: PASS\nmemory: PASS\ngraph: PASS\nsearch: PASS\nliterature: PASS\n",
+      "stderr": ""
+    },
+    {
+      "command": "python checks/replay_search.py",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "as_expected": true,
+      "stdout": "{\"status\": \"PASS\", \"documents\": 20, \"queries\": 5, \"methods\": [\"BM25\", \"dense cosine\"], \"network_used\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python checks/submission_ready.py",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "as_expected": true,
+      "stdout": "PENDING: student review has not been recorded. Open REVIEW.html.\n",
+      "stderr": ""
+    }
+  ],
+  "notebooks": [
+    {
+      "notebook": "search_lab_TiN.ipynb",
+      "code_cells": 23,
+      "executed_code_cells": 23,
+      "unhandled_errors": 0
+    },
+    {
+      "notebook": "agent_loop_TiN.ipynb",
+      "code_cells": 22,
+      "executed_code_cells": 22,
+      "unhandled_errors": 0
+    }
+  ],
+  "python_syntax": "PASS",
+  "exact_private_key_scan": "PASS",
+  "review_page_links": "PASS",
+  "review_page_browser_check": {
+    "top_render": "visually inspected",
+    "empty_comments": 5,
+    "checked_boxes": 0,
+    "save_button": "disabled until real answers",
+    "pdf_page_images_loaded": 2,
+    "horizontal_overflow": false,
+    "note": "DOM state checked; native screenshots after anchor scroll returned blank background, so no claim of visual inspection of the bottom block."
+  },
+  "graph_objects": 23,
+  "classes": 7,
+  "rules": 4,
+  "technical_status": "PASS",
+  "student_review": "PENDING",
+  "submission": "NOT_SENT"
+}

@@ -1,0 +1,171 @@
+===== PDF PAGE 1 =====
+1Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+www.nature.com/scientificreports
+Laser- synthesized tiN nanoparticles 
+as promising plasmonic alternative 
+for biomedical applications
+Anton A. popov1, Gleb t selikov1, Noé Dumas2, Charlotte Berard2,3, Khaled Metwally4,5, 
+Nicola Jones4, Ahmed Al-Kattan1, Benoit Larrat6, Diane Braguer2,3, serge Mensah4, 
+Anabela Da silva 5, Marie-Anne estève2,3 & Andrei V. Kabashin1,7
+exhibiting a red-shifted absorption/scattering feature compared to conventional plasmonic metals, 
+titanium nitride nanoparticles (tiN Nps) look as very promising candidates for biomedical applications, 
+but these applications are still underexplored despite the presence of extensive data for conventional 
+plasmonic counterparts. Here, we report the fabrication of ultrapure, size-tunable tiN Nps by methods 
+of femtosecond laser ablation in liquids and their biological testing. We show that tiN Nps demonstrate 
+strong and broad plasmonic peak around 640–700 nm with a significant tail over 800 nm even for small 
+Nps sizes (<7 nm). In vitro tests of laser-synthesized tiN Nps on cellular models evidence their low 
+cytotoxicity and excellent cell uptake. We finally demonstrate a strong photothermal therapy effect 
+on U87–MG cancer cell cultures using TiN NPs as sensitizers of local hyperthermia under near-infrared 
+laser excitation. Based on absorption band in the region of relative tissue transparency and acceptable 
+biocompatibility, laser-synthesized tiN Nps promise the advancement of biomedical modalities 
+employing plasmonic effects, including absorption/scattering contrast imaging, photothermal therapy, 
+photoacoustic imaging and seRs.
+Capable of supporting collective oscillations of free electrons (surface plasmons), plasmonic nanostructures can 
+offer a number of unique properties, including strong resonant scattering and absorption
+1, and dramatic near-field 
+enhancement2,3, which makes them very promising candidates for a plethora of applications. Biomedicine looks 
+as one of major potential beneficiaries of these plasmonic effects, provided the plasmonic materials used are 
+compatible with biological systems
+4. Owing to its excellent chemical stability and biocompatibility, gold looks as 
+the most suitable plasmonic material for biomedical applications, but Au nanoparticles of a reasonable small size 
+(5–50 nm) have their plasmonic feature around 520–540 nm, which is far from optical biological transparency 
+window located between 670 and 1000 nm. The problem of such a plasmonic mismatch can be solved by employ-
+ing engineered plasmonic nanostructures such as Au-based core-shells (SiO
+2 –Au, Si-Au)5,6 or nanorods7, which 
+shift the plasmonic feature toward the transparency window and thus enable a variety of modalities, including 
+light induced hyperthermia-based therapy
+5–7, confocal reflectance microscopy 8, photoacoustic tomography 9, 
+optical coherence tomography 10 imaging modalities. However, the size of core-shells and nanorods typically 
+ranges between several tens of nm and 150–200 nm, which complicates the excretion of such nanostructures from 
+the organism11 and can lead to toxicity related to residual gold accumulation in some organs12. In addition, the 
+nanorods are usually stabilized in colloidal solutions by non-biocompatible cetyl trimethylammonium bromide 
+(CTAB)
+13–15, which can cause some additional toxicity problems. In general, the implementation of plasmonic 
+feature in the biological transparency window seems hardly possible based on reasonably small NPs of classical 
+plasmonic metals (Au, Ag, Al, etc.).
+We believe that the plasmonic spectral mismatch problem of small nanoparticles can be resolved by employing 
+alternative plasmonic nanomaterials. TiN looks to be one of most promising candidates as TiN NPs are capable 
+1Aix Marseille University, CNRS, LP3, Campus de Luminy, Case 917, 13288, Marseille, France. 2Aix-Marseille Univ, 
+CNRS, INP , Inst Neurophysiopathol, Marseille, France. 3Assistance Publique – Hôpitaux de Marseille, Hôpital Timone, 
+13385, Marseille cedex 5, France. 4Aix Marseille University, CNRS, Centrale Marseille, LMA, Marseille, France. 5Aix 
+Marseille Univ, CNRS, Centrale Marseille, Institut Fresnel, Marseille, France. 6Unité d’Imagerie par Résonance 
+Magnétique et de Spectroscopie, CEA/DRF/I2BM/NeuroSpin, F-91191, Gif-sur-Yvette, France. 7MEPhI, Institute of 
+Engineering Physics for Biomedicine (PhysBio), Bio- nanophotonics Laboratory, 31 Kashirskoe sh, 115409, Moscow, 
+Russia. Correspondence and requests for materials should be addressed to A.V.K. (email: kabashin@lp3.univ-mrs.fr)
+Received: 23 August 2018
+Accepted: 7 November 2018
+Published: xx xx xxxx
+opeN
+
+
+
+===== PDF PAGE 2 =====
+www.nature.com/scientificreports/
+2Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+of generating red-shifted plasmonic feature16–21 with a high photothermal conversion efficiency21. Having good 
+chemical stability and biocompatibility, TiN instruments have been successfully used in biological systems as 
+surgical and food-related tools, as well as implants22, while well-established surface chemistry of TiN structures 
+renders possible its easy functionalization by standard protocols23. However, fabrication routes for the synthesis of 
+TiN NPs are not always compatible with projected biomedical applications. Indeed, chemical synthesis routes24,25 
+are rather complicated in terms of a number of preparation steps and employ hazardous products, which can 
+cause residual contamination of NPs and related toxicity issues. On the other hand, nanocrystals prepared by 
+dry fabrication methods, including direct nitridation of TiO
+2 powders26, plasma assisted processing27–29 and laser 
+ablation in nitrogen atmosphere 17, normally cannot be dispersed and stabilized in aqueous solutions without 
+applying similar wet chemistry steps.
+Here, we demonstrate a simple and cost efficient method for the production of stable solutions of bare (ligand –  
+free) TiN NPs by methods of femtosecond (fs) laser ablation and fragmentation in water and organic (acetone) 
+solutions. By performing a series of biological tests using 2D cultures and 3D spheroids, we evidence high safety 
+and excellent cell uptake of laser-synthesized TiN NPs, as well as show efficient therapy effect on cancer cells using 
+TiN NPs as sensitizers of photothermal treatment at the plasmonic absorption band (650–800 nm).
+Results and Discussion
+synthesis and characterization of t iN nanoparticles.  For the synthesis of TiN NPs we adapted 
+methods of ultra-short laser ablation and fragmentation in liquid ambience, which were earlier used for the 
+preparation of bare Au and Ag NPs
+30–36. In the first “ablation” approach30–32, radiation from a femtosecond laser 
+(Yb:KGW , 1025 nm, 1–100 kHz) was focused onto a TiN target placed on the bottom of a glass vessel filled with 
+deionized water or acetone in order to initiate ablation of material, as shown in Fig.  1a (see details in Methods 
+section). The target was continuously moved at a speed of 2 mm s− 1 during the ablation step to avoid ablation 
+from the same point.
+We observed a blue coloration of solution within a few minutes of the ablation process, indicating the for -
+mation of TiN NPs. Concentration of NPs increased linearly at the beginning of the process and then came to 
+a saturation after some time. Saturation concentration and time until saturation depended on pulse energy. In 
+particular, for 100 μJ pulse energy and 5 kHz repetition rate saturation time was 15 min and the saturation con-
+centration was about 100 μg mL
+− 1. TiN colloids synthesized by laser ablation both in water and acetone were very 
+stable with almost no traces of aggregation or precipitation during their storage at ambient conditions for several 
+months. Such a high stability of colloidal solutions was due to an electrostatic stabilization owing to strong charg-
+ing of NPs surface similar to how it happens for other materials
+33. Indeed, according to our ζ–potential measure-
+ments, the surface potential of TiN NPs was − 30 mV , which is higher than the stability threshold (20 mV)37 for 
+colloidal solutions.
+A typical HR-TEM image of a TiN nanoparticle synthesized by pulsed laser ablation in water is shown in 
+Fig. 2a. One can see that the nanoparticle had a spherical shape and exhibited a polycrystalline structure, while 
+the size of single-crystal grains was about 1–3 nm. Interestingly, TiN NPs could have a hollow structure con-
+taining one or several cavities, as follows from the presence of light areas inside NPs on TEM images (Fig.  2e). 
+When synthesized in acetone, only 5–10% of NPs contained such hollow cavities, while for the synthesis in water 
+ambient the relevant parameter could reach 60%. Moreover, most of hollow NPs had only one cavity under ace-
+tone conditions, while under water conditions they could contain several cavities. As another observation, when 
+ablated in acetone, all synthesized TiN NPs were spherical and crystalline, while the ablation in water ambient 
+was accompanied by the production of a certain amount of nanostructured amorphous flakes. Based on our pre-
+vious experience, the formation of such amorphous non-spherical flakes during laser ablation in water is typical 
+for easily oxidizing materials (Ti, Fe, Co, etc.). Nevertheless, SAED measurements showed that spherical NPs 
+prepared under water and acetone conditions present stoichiometric TiN. An example of SAED pattern is shown 
+in Fig. 2b. Results of analysis of this pattern are summarized in Table 1. Rings 3, 4 and 6–11 correspond to first 
+8 diffraction rings of TiN FCC lattice, as follows from the comparison of their positions with data for bulk TiN, 
+taken from JCPDS database (JCPDS 38–1420). Measured lattice constant 4.272 Å ± 0.114 Å is in accordance with 
+tabulated lattice constant 4.24 Å of bulk TiN. Rings 1 and 5, which cannot be attributed to rock salt structure of 
+TiN, should belong to titanium oxide fraction of synthesized NPs. In particular, position of ring 1 is close to that 
+of (012) plane of Ti
+2O3 (JCPDS 43-1033), the position of ring 5 is close to (105) plane of anatase TiO2 and (211) 
+plane of rutile TiO2 (JCPDS 21-1272 and 21-1276). Thus, SAED data clearly indicated formation of crystalline 
+TiN NPs with lattice structure similar to that of bulk TiN with some fraction of titanium oxide. Presence of 
+titanium oxide is in accordance with previous results on the synthesis of TiN NPs by alternative methods
+20,23,25.
+Statistical analysis of TEM images demonstrated lognormal size distribution of synthesized TiN NPs as shown 
+in Fig. 2c. When ablated in acetone, the mean size of NPs depended on laser pulse energy as shown in Fig. 3. In 
+particular, the increase of pulse energy from 10 to 100 μJ led to the increase of NPs mean diameter from 25 to 
+40 nm under relatively broad size dispersion (25–40 nm FWHM). Such a pulse energy dependence for the mean 
+size of TiN NPs is in agreement with our previous data on fs laser ablation of Au in deionized water30,31. For abla-
+tion in water, the dependence of NPs size on pulse energy was not significant and the mean size of synthesized 
+TiN NPs was always around 30 nm under the size dispersion of 40 nm FWHM. It is important that TiN NPs pre-
+pared both in acetone and deionized water exhibited strong peaks around 700 nm in extinction spectra associated 
+with the excitation of surface plasmons over the NPs (solid black and red lines in Fig. 4, respectively). Here, we 
+did not observe any remarkable variations of the peak position for NPs having mean size between 25 and 40 nm. 
+It should be noted that TiN NPs prepared in acetone could be easily transferred to aqueous solutions via a simple 
+centrifugation step.
+To further reduce the mean size and narrow down size dispersion, we employed the technique of femtosecond 
+laser fragmentation, which was developed in our earlier works to minimize the size dispersion of bare Au NPs
+34–36.  
+
+
+===== PDF PAGE 3 =====
+www.nature.com/scientificreports/
+3Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Briefly, colloidal solutions of TiN NPs, which were preliminary prepared by laser ablation step, are exposed to 
+radiation of the same laser in the absence of the target. The laser beam was focused 1 cm below the liquid surface, 
+while the solution was continuously homogenized by a magnetic stirrer during the fragmentation process (see 
+details in Methods section). Here, we observed a fast loss of blue coloration of solutions and related disappearance 
+of the plasmonic peak, while the extinction spectrum of colloids started to be similar to that of TiO
+x (Fig. 4, black 
+dashed line), suggesting oxidation of NPs as the main reason of the color loss. Laser fragmentation in acetone was 
+a solution to the oxidation problem. In this case, we observed a drastic decrease in the size of final TiN NPs down 
+to 4 nm under a very narrow size dispersion (lower than 3 nm FWHM as shown in Fig. 2d). Here, despite such a 
+drop in NPs size, plasmon extinction peak was still well resolvable and intense, although it slightly decreased and 
+blue shifted from 700 to 640 nm (Fig. 4, red dashed line).
+The plasmonic peak around 640–700 nm for small (4–40 nm) spherical TiN NPs is much redshifted com-
+pared to Au NPs of similar and larger sizes (520–560 nm), which promises a major breakthrough in biomedical 
+applications of nanoplasmonic structures. The extinction coefficient calculated by the Beer-Lambert law at peak 
+position varied from 18 L g
+− 1 cm− 1 for 40 nm NPs to 6 L g− 1 cm− 1 for 4 nm NPs, which is comparable with other 
+photothermal agents38,39. Moreover, the extinction peak was very broad and decreased by only 15% from 650 to 
+850 nm (Fig. 4). Such optical properties of TiN NPs look promising for their application in photothermal treat-
+ment (PTT) of tumors and photoacoustic imaging (PAI) of biological tissues.
+In vitro safety and cell uptake tests. To assess biocompatibility and cell uptake of TiN NPs synthesized by 
+laser ablation, we performed several biological tests. Safety of new TiN NPs was tested in vitro on human micro-
+vascular endothelial cells (HMEC–1) and on human cancer cells (U87–MG). These cellular models in 2D and 3D 
+geometries are highly relevant for cancer therapy applications. The viability of 2D cell cultures was evaluated on 
+Figure 1. (a) Schematics of laser ablation setup. A laser beam is focused on the surface of the TiN target, which 
+is placed in the vessel filled with a liquid. The vessel is mounted on a moving translation stage to avoid ablation 
+from the same area of the target. (b) Schematic of laser fragmentation setup to minimize size dispersion of NPs. 
+Ar bubbling used optionally to remove dissolved oxygen.

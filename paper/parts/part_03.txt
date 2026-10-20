@@ -1,0 +1,222 @@
+===== PDF PAGE 8 =====
+www.nature.com/scientificreports/
+8Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+have maximum transparency. In vitro tests demonstrated good internalization of TiN NPs via endocytosis and an 
+acceptable toxicity profile of laser-synthesized TiN NPs. Finally, we demonstrated a strong photothermal effect 
+using laser-synthesized NPs as sensitizers of IR radiation-induced hyperthermia, comparable and even outper-
+forming commercial TiN NPs. Altogether, our results demonstrate the potential of laser-synthesized TiN NPs as 
+a photoabsorbing agent for further photothermal studies in vivo.
+Methods
+synthesis of nanoparticles. TiN NPs were synthesized by ultra-shot (fs) laser ablation of bulk TiN target 
+in liquid medium at ambient conditions, similar to how it was done in our previous papers 30–32. Briefly, hot-
+pressed TiN target (GoodFellow) was placed on the bottom of a glass vessel filled with 7 mL of ultrapure water 
+(18.2 MΩ cm at 25 °C) or acetone (analytical reagent grade, Fisher Chemical), as shown in Fig. 1a. The liquid layer 
+above the target was 10 mm thick. A 2.3 mm diameter beam from a Yb:KGW laser (Amplitude Systems, 1025 nm, 
+1–100 kHz) was focused by a 75 mm lens on the surface of the target. To account for shifts of the focal position 
+due to non-linear effects, accompanying the interaction of intense fs pulse with liquid, we adjusted the lens – tar-
+get distance to achieve maximum productivity (maximum ablated mass per a time period). This adjustment was 
+especially important for acetone, as in the case of acetone ambience the change of pulse energy from 10 mJ to 100 
+mJ led to a shift of lens position by 10 mm. The target was continuously moved at a speed of 2 mm s
+−1  during the 
+ablation step to avoid ablation from the same point.
+As an additional method to control TiN NPs size we used a technique of fs laser fragmentation, which was 
+developed in our previous works34–36. The experimental setup for laser fragmentation is shown in Fig. 1b. Briefly, 
+colloidal solutions of TiN NPs, which were preliminary prepared by laser ablation step, were exposed to radiation 
+of the same laser in the absence of the target. The laser beam was focused with the help of a 75 mm lens at 1 cm 
+below the liquid surface. The solution was continuously homogenized by a magnetic stirrer during the fragmen-
+tation process.
+To minimize oxidation effects during ablation and fragmentation processes, in some cases we pumped out 
+oxygen dissolved in solutions by bubbling them with Ar gas before and during the experiments similarly to how 
+it was done in our previous works
+44.
+Figure 7. TEM images of endosomes containing TiN NPs (marked by arrows), observed after exposure of 
+U87–MG spheroids to 1 μg mL−1  of TiN NPs for 10 days.
+Figure 8. Area (blue marks) and viability (red marks) of U87–MG cells spheroids as a function of (a) TiN NPs 
+concentration and (b) laser exposure time. Insets demonstrate corresponding bright-field photomicrographs.
+
+
+===== PDF PAGE 9 =====
+www.nature.com/scientificreports/
+9Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Characterization of nanoparticles. Morphology, structure and size of synthesized NPs were character-
+ized by the high-resolution transmission electron microscopy (HR-TEM) system (JEOL JEM 3010) operating at 
+300 kV and equipped with a Gatan Multiscan CCD in imaging and diffraction modes. Samples were prepared by 
+dropping 5 μL of NPs solution onto a carbon-coated TEM copper grid and subsequent drying at ambient con-
+ditions. Analysis of selected area electron diffraction (SAED) patterns was performed using ProcessDiffraction 
+v.8.7.1 software45 Uncertainty in determination of lattice constants was estimated as full width at half maximum 
+(FWHM) of diffraction rings after lognormal correction for background signal. ζ–potential measurements were 
+performed using a Zetasizer ZS instrument (Malvern Instruments, Orsay, France). Extinction spectra of NPs 
+solutions were measured by a UV– VIS spectrophotometer (UV–2600, Shimadzu) using 10 mm optical path 
+length quartz cuvettes. Concentrations of NPs solutions were determined by measuring target weight before and 
+after the ablation step. As the TiN target was produced by hot-pressing of a TiN powder and presented a porous 
+material, a prolonged drying step was required to determine the mass change correctly. Additional concentration 
+measurements were done using the inductively coupled plasma – mass spectrometry (ICP–MS) method.
+Cell cultures.  Safety of TiN NPs was evaluated on 2D culture of human microvascular endothelial cells 
+(HMEC–1) and 2D and 3D cultures of human glioblastoma cancer cells (U87–MG). Cells were obtained from 
+American Type Culture Collection (Manassas, V A, USA). HMEC–1 cells were maintained in MCDB 131 medium 
+(Gibco, UK) containing 10% of decomplemented fetal bovine serum, 2 mM L–Glutamine (Gibco, UK), 1% (v/v) 
+of penicillin/streptomycin solution (Gibco, UK) and 0.1% of epidermal growth factor. U87–MG cells were main-
+tained in EMEM (Lonza, Verviers, Belgium) supplemented with 10% of decomplemented fetal bovine serum, 
+2mM L–Glutamine and 1% (v/v) of penicillin/streptomycin.
+Viability assay using 2D cell cultures. 3000 cells for HMEC–1 and 4000 cells for U87–MG were seeded 
+on 96 – well plates and kept at 37 °C in a humidified incubator filled with 5% CO2. After 24 h of growth, culture 
+medium was replaced by 150 μL of fresh medium containing different concentrations of TiN NPs ranging from 
+0.025 to 10 μg mL− 1. After a 72 h of incubation cell viability was assessed using resazurin reduction protocol: 15 μL 
+of resazurin reagent (alamarBlue, Thermo Fisher Scientific) was added to each well, and incubated for 6 h before 
+fluorescence was measured by a microplate reader (POLARstar Omega, BMG LABTECH). All fluorescence data 
+were corrected by subtraction of the background signal from blank wells. Viability was calculated as a fluores-
+cence signal from a sample, normalized to the fluorescence signal from control wells not subjected to TiN NPs. 
+Experiments were repeated three times independently, with four wells for each experimental condition.
+Viability assay using 3D cell cultures.  To obtain U87–MG cells 3D culture in a form of spheroids, 
+cells growing in regular 2D cultures were rinsed once in phosphate buffered saline, then detached using 0.02% 
+Trypsin/EDTA (Gibco, UK), pelleted by centrifugation at 200 g for 5 min and finally resuspended in a fresh cul-
+ture medium supplemented with 20% methylcellulose and seeded on round-bottom 96 – well plates (Greiner 
+Bio–one, Courtaboeuf, France) at 1000 cells per well in 100 μL of medium. After 72 h of growth at 37 °C under 
+5% CO
+2 spheroids were formed and 100 μL of fresh medium containing different amounts of TiN NPs with final 
+concentrations from 0.1 to 15 μg mL−1  were added to wells. The spheroids growth was maintained for 13 days by 
+adding 10 μL of fresh medium per well three times a week and was monitored daily by measuring spheroid area 
+on bright–field photomicrographs (Eclipse Ts2–FL, Nikon). All images were segmented using a custom macro 
+script, written for ImageJ software
+46. At day 13 of exposure to TiN NPs cell viability was assessed by the resazurin 
+reduction protocol as described above for 2D cell culture, but with 20  μL of resazurin reagent per well and 18 h 
+of incubation.
+Assay of nanoparticles cell uptake. TiN NPs uptake in spheroids of U87–MG cells was studied by trans-
+mission electron microscope (JEOL, Japan) operating at 80 kV and equipped with Megaview III camera. Six 
+spheroids exposed to 1 μg mL− 1 of TiN NPs for 10 days were fixed with 2.5% glutaraldehyde in 0.1 M sodium 
+cacodylate buffer for 40 min, then washed again. Samples were progressively dehydrated with 50% to 100% etha-
+nol bathes, before being embedded in epoxy resin (EPON 812) with a series of bathes ranging from 33% to 100% 
+resin, and overnight polymerization at 55 °C. 60 nm sections of spheroids were obtained using Ultracut-E ultra-
+microtome (Reichert–Jung, USA) and contrasted by incubation in 5% uranyl acetate.
+Photothermal therapy tests on 3D cell cultures.  Photothermal effect of TiN NPs was studied by 
+exposing spheroids of U87–MG cells to different concentrations of TiN NPs for four days before laser treatment. 
+The wells were fully filled by the culture medium and sealed with a semi-permeable membrane (Breathe–Easy, 
+Diversified Biotech, Dedham, MA, USA) before laser exposure to avoid condensation on the microplate lids. 
+Spheroids were irradiated by continuous-wave (CW) laser (SLD1332V , 670 nm, 500 mW , Thorlabs) with an inten-
+sity of 4.4 W cm
+−2  (310 mW power, 3 mm beam diameter) for different exposure times varying from 1 to 15 min. 
+Spheroids area and viability were measured as described above.
+References
+ 1. Jain, P . K., Lee, K. S., El-Sayed, I. H. & El-Sayed, M. A. Calculated absorption and scattering properties of gold nanoparticles of 
+different size, shape, and composition: applications in biological imaging and biomedicine. J. Phys. Chem. B 110, 7238–7248 (2006).
+ 2. Nie, S. Probing single molecules and single nanoparticles by surface-enhanced Raman scattering. Science 275, 1102–1106 (1997).
+ 3. Kneipp, K. Surface-enhanced Raman scattering. Phys. Today 60, 40–46 (2007).
+ 4. Dreaden, E. C., Alkilany, A. M., Huang, X., Murphy, C. J. & El-Sayed, M. A. The golden age: gold nanoparticles for biomedicine. 
+Chem. Soc. Rev. 41, 2740–2779 (2012).
+ 5. Hirsch, L. R. et al. Nanoshell-mediated near-infrared thermal therapy of tumors under magnetic resonance guidance. Proc. Natl. 
+Acad. Sci. 100, 13549–13554 (2003).
+
+
+===== PDF PAGE 10 =====
+www.nature.com/scientificreports/
+10Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+ 6. Loo, C., Lowery, A., Halas, N., West, J. & Drezek, R. Immunotargeted nanoshells for integrated cancer imaging and therapy. Nano 
+Lett. 5, 709–711 (2005).
+ 7. Huang, X., El-Sayed, I. H., Qian, W . & El-Sayed, M. A. Cancer cell imaging and photothermal therapy in the near-infrared region by 
+using gold nanorods. J. Am. Chem. Soc. 128, 2115–2120 (2006).
+ 8. Sokolov, K. et al. Real-time vital optical imaging of precancer using anti-epidermal growth factor receptor antibodies conjugated to 
+gold nanoparticles. Cancer Res. 63, 1999–2004 (2003).
+ 9. Gobin, A. M. et al. Near-infrared resonant nanoshells for combined optical imaging and photothermal cancer therapy. Nano Lett. 7, 
+1929–1934 (2007).
+ 10. Wang, Y . et al. Photoacoustic tomography of a nanoshell contrast agent in the in vivo rat brain. Nano Lett. 4, 1689–1692 (2004).
+ 11. Yu, M. & Zheng, J. Clearance pathways and tumor targeting of imaging nanoparticles. ACS Nano 9, 6655–6674 (2015).
+ 12. James, W . D., Hirsch, L. R., West, J. L., O’Neal, P . D. & Payne, J. D. Application of INAA to the build-up and clearance of gold 
+nanoshells in clinical studies in mice. J. Radioanal. Nucl. Chem. 271, 455–459 (2007).
+ 13. Dasgupta, S., Auth, T. & Gompper, G. Shape and orientation matter for the cellular uptake of nonspherical particles. Nano Lett. 14, 
+687–693 (2014).
+ 14. Chithrani, B. D., Ghazani, A. A. & Chan, W . C. W . Determining the size and shape dependence of gold nanoparticle uptake into 
+mammalian cells. Nano Lett. 6, 662–668 (2006).
+ 15. Li, Z. et al. RGD-conjugated dendrimer-modified gold nanorods for in vivo  tumor targeting and photothermal therapy†. Mol. 
+Pharm. 7, 94–104 (2010).
+ 16. Quinten, M. The color of finely dispersed nanoparticles. Appl. Phys. B Lasers Opt. 73, 317–326 (2001).
+ 17. Reinholdt, A. et al. Structural, compositional, optical and colorimetric characterization of TiN-nanoparticles. Eur. Phys. J. D 31, 
+69–76 (2004).
+ 18. Guler, U., Naik, G. V ., Boltasseva, A., Shalaev, V . M. & Kildishev, A. V . Performance analysis of nitride alternative plasmonic materials 
+for localized surface plasmon applications. Appl. Phys. B Lasers Opt. 107, 285–291 (2012).
+ 19. Guler, U., Shalaev, V . M. & Boltasseva, A. Nanoparticle plasmonics: going practical with transition metal nitrides. Mater. Today 18, 
+227–237 (2015).
+ 20. Guler, U., Suslov, S., Kildishev, A. V ., Boltasseva, A. & Shalaev, V . M. Colloidal plasmonic titanium nitride nanoparticles: properties 
+and applications. Nanophotonics 4, 269–276 (2015).
+ 21. Lalisse, A., Tessier, G., Plain, J. & Baffou, G. Plasmonic efficiencies of nanoparticles made of metal nitrides (TiN, ZrN) compared 
+with gold. Sci. Rep. 6, 38647 (2016).
+ 22. van Hove, R. P ., Sierevelt, I. N., van Royen, B. J. & Nolte, P . A. Titanium-nitride coating of orthopaedic implants: a review of the 
+literature. Biomed Res. Int. 2015, 1–9 (2015).
+ 23. He, W . et al. Plasmonic titanium nitride nanoparticles for in vivo  photoacoustic tomography imaging and photothermal cancer 
+therapy. Biomaterials 132, 37–47 (2017).
+ 24. Y ang, X., Li, C., Y ang, L., Y an, Y . & Qian, Y . Reduction-nitridation synthesis of titanium nitride nanocrystals. J. Am. Ceram. Soc. 86, 
+206–208 (2003).
+ 25. Zhang, H., Li, F . & Jia, Q. Preparation of titanium nitride ultrafine powders by sol–gel and microwave carbothermal reduction 
+nitridation methods. Ceram. Int. 35, 1071–1075 (2009).
+ 26. Li, J. et al. Synthesis of nanocrystalline titanium nitride powders by direct nitridation of titanium oxide. J. Am. Ceram. Soc. 84, 
+3045–3047 (2001).
+ 27. Tavares, J., Coulombe, S. & Meunier, J.-L. Synthesis of cubic-structured monocrystalline titanium nitride nanoparticles by means of 
+a dual plasma process. J. Phys. D. Appl. Phys. 42, 102001 (2009).
+ 28. Kumar, S. M., Murugan, K., Chandrasekhar, S. B. & Hebalkar, N. Synthesis and characterization of nano silicon and titanium nitride. 
+J. Chem. Sci. 124, 557–563 (2012).
+ 29. Alvarez Barragan, A., Ilawe, N. V ., Zhong, L., Wong, B. M. & Mangolini, L. A Non-Thermal Plasma Route to Plasmonic TiN 
+Nanoparticles. J. Phys. Chem. C 121, 2316–2322 (2017).
+ 30. Kabashin, A. V . & Meunier, M. Synthesis of colloidal nanoparticles during femtosecond laser ablation of gold in water. J. Appl. Phys. 
+94, 7941 (2003).
+ 31. Kabashin, A. V . & Meunier, M. Femtosecond laser ablation in aqueous solutions: a novel method to synthesize non-toxic metal 
+colloids with controllable size. J. Phys. Conf. Ser. 59, 354–359 (2007).
+ 32. Sylvestre, J. P ., Kabashin, A. V ., Sacher, E. & Meunier, M. Femtosecond laser ablation of gold in water: Influence of the laser-produced 
+plasma on the nanoparticle size distribution. Appl. Phys. A Mater. Sci. Process. 80, 753–758 (2005).
+ 33. Sylvestre, J. P . et al. Surface chemistry of gold nanoparticles produced by laser ablation in aqueous media. J. Phys. Chem. B 108, 
+16864–16869 (2004).
+ 34. Besner, S., Kabashin, A. V . & Meunier, M. Fragmentation of colloidal nanoparticles by femtosecond laser-induced supercontinuum 
+generation. Appl. Phys. Lett. 89, 1–4 (2006).
+ 35. Maximova, K., Aristov, A., Sentis, M. & Kabashin, A. V . Size-controllable synthesis of bare gold nanoparticles by femtosecond laser 
+fragmentation in water. Nanotechnology 26, 065601 (2015).
+ 36. Correard, F. et al. Gold nanoparticles prepared by laser ablation in aqueous biocompatible solutions: assessment of safety and 
+biological identity for nanomedicine applications. Int. J. Nanomedicine 9, 5415–30 (2014).
+ 37. Hiemenz, P . C. & Rajagopalan, R. Principles of Colloid and Surface Chemistry. (CRC Press), https://doi.org/10.1201/9781315274287 
+(1997).
+ 38. Robinson, J. T. et al. High performance in vivo near-IR (>1 μm) imaging and photothermal cancer therapy with carbon nanotubes. 
+Nano Res. 3, 779–793 (2010).
+ 39. Baffou, G. & Quidant, R. Thermo-plasmonics: using metallic nanostructures as nano-sources of heat. Laser Photon. Rev. 7, 171–187 
+(2013).
+ 40. Thoma, C. R., Zimmermann, M., Agarkova, I., Kelm, J. M. & Krek, W . 3D cell culture systems modeling tumor growth determinants 
+in cancer target discovery. Adv. Drug Deliv. Rev. 69–70, 29–41 (2014).
+ 41. Leong, D. T. & Ng, K. W . Probing the relevance of 3D cancer models in nanomedicine research. Adv. Drug Deliv. Rev. 79–80, 95–106 
+(2014).
+ 42. Busch, W . et al. Internalisation of engineered nanoparticles into mammalian cells in vitro : influence of cell type and particle 
+properties. J. Nanoparticle Res. 13, 293–310 (2011).
+ 43. O’Neal, D. P ., Hirsch, L. R., Halas, N. J., Payne, J. D. & West, J. L. Photo-thermal tumor ablation in mice using near infrared-
+absorbing nanoparticles. Cancer Lett. 209, 171–176 (2004).
+ 44. Al-Kattan, A. et al. Ultrapure laser-synthesized Si nanoparticles with variable oxidation states for biomedical applications. J. Mater. 
+Chem. B 4, 7852–7858 (2016).
+ 45. Lábár, J. L. Consistent indexing of a (set of) single crystal SAED pattern(s) with the ProcessDiffraction program. Ultramicroscopy 
+103, 237–249 (2005).
+ 46. Schindelin, J. et al. Fiji: an open-source platform for biological-image analysis. Nat. Methods 9, 676–682 (2012).
+
+
+===== PDF PAGE 11 =====
+www.nature.com/scientificreports/
+11Scientific  RepoRts  |          (2019) 9:1194  | https://doi.org/10.1038/s41598-018-37519-1
+Acknowledgements
+The authors are grateful to Alexandre Altié (Service de microscopie du C2VN – Aix- Marseille Université) for his 
+expertise in the preparation and observation of biological samples by TEM. The authors are grateful to Florian 
+Correard for his help during the preparation of experiments on cell uptake and cytotoxicity studies. The authors 
+acknowledge the contribution from ITMO cancer AVIESAN (National Alliance for the Life Sciences & Health) 
+within the framework of the Cancer Plan (GRAVITY Project). A.V .K. acknowledges support from the MEPhI 
+Academic Excellence Project (Contract No. 02.a03.21.0005).
+Author Contributions
+A.V .K. conceived and designed the research. A.A.P ., G.T., A.A.K. designed laser synthesis experiments, fabricated 
+and characterized TiN NPs. N.D., C.B., D.B. and M.A.E. designed and performed cytotoxicity, cell uptake tests, 
+and phototherapy experiments. K.M., N.J., S.M., and A.D.S. designed and performed phototherapy experiments. 
+All co-authors analyzed and discussed obtained data. A.A.P . and A.V .K. prepared the manuscript using data from 
+co-authors. All authors have given approval to the final version of the manuscript.
+Additional Information
+Competing Interests: The authors declare no competing interests.
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2019

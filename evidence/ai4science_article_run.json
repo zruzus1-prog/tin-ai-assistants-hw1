@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-10-19T23:57:29.459015+00:00",
+  "provider": "Yandex AI Studio",
+  "agent": "AI4Science / Goose 1.50.0",
+  "model": "deepseek-v4-flash/latest",
+  "mode": "auto; web disabled; no Lean",
+  "prompt": "evidence/prompts/11_course_article.txt",
+  "exit_code": 0,
+  "status": "completed",
+  "ended_at_utc": "2026-10-19T23:57:40.915028+00:00"
+}

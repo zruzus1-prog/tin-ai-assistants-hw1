@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "without",
+    "run": "08_compare_without",
+    "agent_exit": 0,
+    "checker_exit": 0,
+    "checker_stdout": null,
+    "checker_stderr": "",
+    "git_status": "?? review/\n",
+    "library_hash_reconstructed": "65a8a14c0dd4f847a40ad133cdf8133cfc0bcefc4acd5d0cbf20d3d1f55e7b5d",
+    "hash_note": "Course library_hash.txt unavailable (HTTP500); independently reconstructed from all six downloaded original files before both runs.",
+    "finished_at_utc": "2026-10-19T23:54:25.850031+00:00",
+    "independent_recheck": {
+      "exit_code": 0,
+      "stdout": "принято: таблица и ссылки согласованы с библиотекой\n",
+      "stderr": "",
+      "at_utc": "2026-10-20T00:03:00.563267+00:00"
+    }
+  },
+  {
+    "variant": "with",
+    "run": "08_compare_with",
+    "agent_exit": 0,
+    "checker_exit": 0,
+    "checker_stdout": null,
+    "checker_stderr": "",
+    "git_status": "?? diary.md\n?? review/\n",
+    "library_hash_reconstructed": "65a8a14c0dd4f847a40ad133cdf8133cfc0bcefc4acd5d0cbf20d3d1f55e7b5d",
+    "hash_note": "Course library_hash.txt unavailable (HTTP500); independently reconstructed from all six downloaded original files before both runs.",
+    "finished_at_utc": "2026-10-19T23:54:59.882334+00:00",
+    "independent_recheck": {
+      "exit_code": 0,
+      "stdout": "принято: таблица и ссылки согласованы с библиотекой\n",
+      "stderr": "",
+      "at_utc": "2026-10-20T00:03:00.563267+00:00"
+    }
+  }
+]

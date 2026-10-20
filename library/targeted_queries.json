@@ -1,0 +1,99 @@
+{
+  "stage": "targeted-exact-title-search",
+  "date": "2026-10-20",
+  "source": "OpenAlex",
+  "publisher_page": "https://link.springer.com/article/10.1007/s11468-023-01852-7",
+  "note": "Три отдельных точных поиска по названиям кандидатов, перечисленных в списке литературы на странице издателя (список передан в задании; страницу издателя агент не открывал). Фильтр типа намеренно не применялся: work_type=any. Для каждого совпадения отдельно вызван openalex_work. Тип в записях — фактический тип графа OpenAlex.",
+  "queries": [
+    {
+      "query_id": "Query-Targeted-1",
+      "publisher_reference": "Xiao J., Liu P., Wang C.X., Yang G.W. (2017). External field-assisted laser ablation in liquid: an efficient strategy for nanocrystal synthesis and nanostructure assembly. Progress in Materials Science 87:140–220.",
+      "query": "External field-assisted laser ablation in liquid: an efficient strategy for nanocrystal synthesis and nanostructure assembly",
+      "parameters": {
+        "work_type": "any",
+        "year_from": 2016,
+        "year_to": 2026,
+        "sort": "relevance",
+        "limit": 3
+      },
+      "found": 3650,
+      "returned_ids": [
+        "W2590450430",
+        "W4283316521",
+        "W2802854090"
+      ],
+      "selected_id": "W2590450430",
+      "match": "exact_title",
+      "provenance": {
+        "source": "OpenAlex",
+        "retrieved": "2026-10-20",
+        "request": "https://api.openalex.org/works?search=External+field-assisted+laser+ablation+in+liquid%3A+an+efficient+strategy+for+nanocrystal+synthesis+and+nanostructure+assembly&per_page=3&sort=relevance_score%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2016-01-01%2Cto_publication_date%3A2026-12-31",
+        "untrusted_text_fields": [
+          "title",
+          "abstract",
+          "description"
+        ]
+      }
+    },
+    {
+      "query_id": "Query-Targeted-2",
+      "publisher_reference": "Kim M., Osone S., Kim T., Higashi H., Seto T. (2017). Synthesis of nanoparticles by laser ablation: a review. KONA Powder and Particle Journal 34:80–90.",
+      "query": "Synthesis of nanoparticles by laser ablation: a review",
+      "parameters": {
+        "work_type": "any",
+        "year_from": 2016,
+        "year_to": 2026,
+        "sort": "relevance",
+        "limit": 3
+      },
+      "found": 81250,
+      "returned_ids": [
+        "W2344885033",
+        "W4318820635",
+        "W4283316521"
+      ],
+      "selected_id": "W2344885033",
+      "match": "exact_title",
+      "provenance": {
+        "source": "OpenAlex",
+        "retrieved": "2026-10-20",
+        "request": "https://api.openalex.org/works?search=Synthesis+of+nanoparticles+by+laser+ablation%3A+a+review&per_page=3&sort=relevance_score%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2016-01-01%2Cto_publication_date%3A2026-12-31",
+        "untrusted_text_fields": [
+          "title",
+          "abstract",
+          "description"
+        ]
+      }
+    },
+    {
+      "query_id": "Query-Targeted-3",
+      "publisher_reference": "Huang H., Lai J., Lu J., Li Z. (2019). Pulsed laser ablation of bulk target and particle products in liquid for nanomaterial fabrication. AIP Advances 9(1).",
+      "query": "Pulsed laser ablation of bulk target and particle products in liquid for nanomaterial fabrication",
+      "parameters": {
+        "work_type": "any",
+        "year_from": 2016,
+        "year_to": 2026,
+        "sort": "relevance",
+        "limit": 3
+      },
+      "found": 4882,
+      "returned_ids": [
+        "W2909307032",
+        "W3108657096",
+        "W3004995266"
+      ],
+      "selected_id": "W2909307032",
+      "match": "exact_title",
+      "provenance": {
+        "source": "OpenAlex",
+        "retrieved": "2026-10-20",
+        "request": "https://api.openalex.org/works?search=Pulsed+laser+ablation+of+bulk+target+and+particle+products+in+liquid+for+nanomaterial+fabrication&per_page=3&sort=relevance_score%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2016-01-01%2Cto_publication_date%3A2026-12-31",
+        "untrusted_text_fields": [
+          "title",
+          "abstract",
+          "description"
+        ]
+      }
+    }
+  ]
+}

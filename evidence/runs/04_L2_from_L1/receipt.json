@@ -1,0 +1,10 @@
+{
+  "project": "<PROJECT>",
+  "ended_at_utc": "2026-10-19T23:47:07.3147447+00:00",
+  "exit_code": 0,
+  "started_at_utc": "2026-10-19T23:45:58.7725010+00:00",
+  "opencode_version": "2.0.16",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\04_L2_from_L1.txt",
+  "run": "04_L2_from_L1"
+}

@@ -1,0 +1,9 @@
+Исследование литературы для проекта TiN/PLAL. Соблюдай AGENTS.md, максимум 20 вызовов, shell не нужен. Подключён настоящий research MCP; пользуйся его инструментами, не подставляй DOI по памяти.
+
+1. research_openalex_search: запрос "laser ablation in liquids nanoparticles", work_type review, year_from 2016, year_to 2026, sort cited_by_count, limit 10. Выбери 5 подходящих ОБЗОРОВ по лазерному синтезу наночастиц в жидкостях. Это более широкая методология, не притворяйся, что каждый обзор только про TiN. Если подходящих менее 5, ещё один более широкий запрос. Вызови openalex_work для пяти выбранных работ. Сохрани library/reviews.json: массив из 5 объектов {openalex_id,title,year,doi,source,type,query_id:"Query-OpenAlex-PLAL",relevance_to_project,abstract_available}. Не пиши, что метаданные сверены издателем — это следующий независимый этап.
+
+2. research_wikidata_search: "titanium nitride", language en. По найденному Q-ID выполни read-only SELECT через research_wikidata_sparql: получить label, instance of P31 и chemical formula P274 (OPTIONAL), LIMIT 10. Не придумывай Q-ID до поиска. Если endpoint даёт ошибку, зафиксируй её честно.
+
+3. Сохрани library/query_notes.json: массив двух объектов с id Query-OpenAlex-PLAL и Query-Wikidata-TiN, type ЗапросКГрафу, source, date, exact_query/parameters, returned_ids, status. Сохрани reports/literature_mcp.md: [порождено], таблица 5 обзоров с DOI/OpenAlex и происхождением, ограничение внешних метаданных, результат Wikidata/SPARQL. Ссылайся на эти файлы. Не изменяй прочие материалы. Все утверждения о принятии пользователем запрещены.
+
+Итого должно уложиться в 15–18 вызовов: 8 сетевых, чтение AGENTS если нужно, 3 записи. Для журнала перечисли фактические MCP-вызовы и ошибки. Не трать шаги на чтение всех файлов или повторные сетевые поиски без необходимости.

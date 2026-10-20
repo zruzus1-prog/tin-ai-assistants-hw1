@@ -9,6 +9,7 @@ import argparse
 import csv
 import hashlib
 import json
+import math
 import re
 import sys
 import unicodedata
@@ -23,6 +24,11 @@ def norm(s: str) -> str:
 
 
 def extraction(root: Path) -> list[str]:
+    """Verify CSV against paper/pages and four independently transcribed PDF anchors.
+
+    Do not use this as a semantic or clinical validator. See results/conflicts.md
+    and evidence/thesis_verification.json for context that a substring cannot check.
+    """
     errors=[]
     p=root/'results/conditions.csv'
     if not p.exists():return ['Missing results/conditions.csv']
@@ -70,6 +76,7 @@ def extraction(root: Path) -> list[str]:
 
 
 def memory(root: Path) -> list[str]:
+    """Check cascade files and literal evidence; human acceptance is a separate field."""
     errors=[]
     for level in ['L1','L2','L3']:
         p=root/f'memory/{level}.md'
@@ -80,10 +87,29 @@ def memory(root: Path) -> list[str]:
         t=p.read_text(encoding='utf-8')
         if len(re.findall(r'(?im)^\s*(?:#{2,3}\s+|\d+[.)]\s+)',t))<5:
             errors.append('L2 needs at least 5 numbered/heading theses')
+    try:
+        theses=json.loads((root/'memory/theses.json').read_text(encoding='utf-8'))
+        if not 5<=len(theses)<=10:errors.append('L2 needs 5–10 structured theses')
+        for thesis in theses:
+            if not thesis.get('evidence'):errors.append(f"No thesis evidence: {thesis.get('id')}")
+            for ev in thesis.get('evidence',[]):
+                page=int(ev['page']);quote=norm(ev['quote'])
+                if len(quote)<8 or quote not in norm((root/f'paper/pages/page_{page:02d}.txt').read_text(encoding='utf-8')):
+                    errors.append(f"Thesis quote not on page: {thesis.get('id')}/{page}")
+        checks=json.loads((root/'evidence/thesis_verification.json').read_text(encoding='utf-8'))
+        valid=[c for c in checks if c.get('result')=='verified_against_source' and c.get('page') and c.get('quote')]
+        if len({c['thesis_id'] for c in valid})<3:errors.append('Need three independently recorded thesis checks')
+    except (ValueError,KeyError,TypeError,FileNotFoundError) as exc:
+        errors.append('Missing/invalid thesis evidence or verification: '+type(exc).__name__)
     return errors
 
 
 def graph(root: Path) -> list[str]:
+    """Validate the ontology schema, class/instance separation, typed edges and rules.
+
+    Inputs: ontology.yaml, ontology/, notes/, tasks/. A class note defines a type;
+    it is not counted as an object. This is a structural, not scientific reasoner.
+    """
     errors=[]
     try:ont=json.loads((root/'ontology.yaml').read_text(encoding='utf-8'))
     except Exception:return ['Missing/invalid ontology (JSON-compatible YAML expected)']
@@ -116,13 +142,71 @@ def graph(root: Path) -> list[str]:
             domain=spec['domain'];ran=spec['range']
             if typ not in (domain if isinstance(domain,list) else [domain]):errors.append(f'Invalid relation domain: {name}/{relation}')
             if target_type and target_type not in (ran if isinstance(ran,list) else [ran]):errors.append(f'Invalid relation range: {name}/{relation}/{target}')
+        relations={r:target for r,target in re.findall(r'^-\s*([^:\n]+):\s*\[\[([^\]|]+)',t,re.M)}
+        for rule in ont.get('rules',[]):
+            spec=rule.get('check',{})
+            if spec.get('class')!=typ:continue
+            attr=spec.get('if_attribute')
+            if attr and not re.search(r'^'+re.escape(attr)+r':\s*\S',t,re.M):continue
+            if spec.get('property') not in relations:
+                errors.append(f"Rule {rule['id']} violated: {name}")
+        if typ=='Задача':
+            m=re.search(r'^status:\s*["\']?([^\n"\']+)',t,re.M)
+            status=m.group(1).strip() if m else ''
+            if status not in ont.get('attributes',{}).get('status',{}).get('values',[]):errors.append(f'Invalid task status: {name}')
+            if status=='принята' and not (root/'student_review.json').exists():
+                errors.append(f'Student acceptance has no actual review record: {name}')
+    return errors
+
+
+def search(root: Path) -> list[str]:
+    errors=[]
+    try:
+        docs=[json.loads(x) for x in (root/'library/corpus.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+        ids=[d['id'] for d in docs]
+        if len(docs)<20 or len(set(ids))!=len(ids):errors.append('Need 20 unique library documents')
+        if any(len(d.get('abstract','').split())<40 for d in docs):errors.append('Empty/short corpus abstract')
+        ranks=json.loads((root/'library/rankings.json').read_text(encoding='utf-8'))
+        if len(ranks)!=5:errors.append('Need five own search queries')
+        for r in ranks:
+            for key in ['bm25','vector']:
+                if set(r[key+'_order'])!=set(ids):errors.append('Ranking does not cover the corpus')
+                if len(r[key+'_scores'])!=len(ids) or not all(math.isfinite(v) for v in r[key+'_scores']):
+                    errors.append('Invalid ranking scores')
+        nb=json.loads((root/'notebooks/search_lab_TiN.ipynb').read_text(encoding='utf-8'))
+        if any(o.get('output_type')=='error' for c in nb['cells'] for o in c.get('outputs',[])):
+            errors.append('Search notebook has an unhandled execution error')
+        receipt=json.loads((root/'evidence/search_notebook_execution.json').read_text(encoding='utf-8'))
+        if receipt.get('status')!='completed':errors.append('Search notebook did not complete')
+        report=(root/'reports/my_search_report.md').read_text(encoding='utf-8')
+        if report.count('| место | BM25 | вектор |')!=5:errors.append('Need five comparison tables')
+    except (FileNotFoundError,ValueError,KeyError,TypeError) as exc:errors.append('Search artifacts invalid: '+type(exc).__name__)
+    return errors
+
+
+def literature(root: Path) -> list[str]:
+    errors=[]
+    try:
+        reviews=json.loads((root/'library/reviews.json').read_text(encoding='utf-8'))
+        if len(reviews)<5:errors.append('Fewer than five review sources')
+        for r in reviews:
+            if not re.fullmatch(r'W\d+',r.get('openalex_id','')) or not r.get('doi') or not r.get('query_id'):
+                errors.append('Missing source identification/provenance')
+        records=[json.loads(x) for x in (root/'evidence/research_api_calls.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+        if not any('query' in e.get('params',{}) and 'wikidata.org/sparql' in e.get('url','') and e.get('status')=='success' for e in records):
+            errors.append('No successful actual read-only Wikidata SPARQL call')
+        verified=json.loads((root/'evidence/publisher_verification.json').read_text(encoding='utf-8'))
+        selected={r['openalex_id'] for r in reviews}
+        if len({e['openalex_id'] for e in verified if e.get('status')=='matched_publisher' and e['openalex_id'] in selected})<3:
+            errors.append('Need three publisher checks for selected sources')
+    except (FileNotFoundError,ValueError,KeyError,TypeError) as exc:errors.append('Literature artifacts invalid: '+type(exc).__name__)
     return errors
 
 
 def main() -> int:
-    ap=argparse.ArgumentParser();ap.add_argument('stage',choices=['extraction','memory','graph','all'],nargs='?',default='all')
+    ap=argparse.ArgumentParser();ap.add_argument('stage',choices=['extraction','memory','graph','search','literature','all'],nargs='?',default='all')
     ap.add_argument('--root',type=Path,default=ROOT);args=ap.parse_args()
-    selected={'extraction':extraction,'memory':memory,'graph':graph}
+    selected={'extraction':extraction,'memory':memory,'graph':graph,'search':search,'literature':literature}
     errors=[]
     for key,fn in selected.items():
         if args.stage in {key,'all'}:

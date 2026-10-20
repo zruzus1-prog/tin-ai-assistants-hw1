@@ -1,0 +1,14 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "revision": null,
+  "dimensions": 384,
+  "normalization": true,
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "sentence_transformers": "6.1.0",
+  "python": "3.12.10",
+  "device": "cpu",
+  "E5_prefixes": true,
+  "cache_snapshot_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "weights_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+}

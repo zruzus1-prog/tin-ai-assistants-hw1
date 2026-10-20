@@ -1,0 +1,5 @@
+# Preserve byte hashes of source extracts, original toy inputs and evidence on clone.
+* -text
+*.pdf binary
+*.png binary
+*.npy binary

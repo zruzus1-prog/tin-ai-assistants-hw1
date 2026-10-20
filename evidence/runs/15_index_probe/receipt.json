@@ -1,0 +1,10 @@
+{
+  "project": "<PROJECT>",
+  "started_at_utc": "2026-10-20T00:10:15.1086047+00:00",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\15_index_probe.txt",
+  "run": "15_index_probe",
+  "exit_code": 0,
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "opencode_version": "2.0.16",
+  "ended_at_utc": "2026-10-20T00:10:32.2786693+00:00"
+}

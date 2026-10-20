@@ -1,0 +1,153 @@
+[
+  {
+    "id": "Query-OpenAlex-PLAL",
+    "type": "ЗапросКГрафу",
+    "source": "OpenAlex API через research MCP: openalex_search, openalex_links, openalex_work",
+    "date": "2026-10-20",
+    "exact_query": "laser ablation in liquids nanoparticles",
+    "parameters": {
+      "work_type": "review",
+      "year_from": 2016,
+      "year_to": 2026,
+      "sort": "cited_by_count",
+      "limit": 10
+    },
+    "additional_queries": [
+      {
+        "exact_query": "pulsed laser ablation in liquid nanoparticle synthesis",
+        "parameters": {
+          "work_type": "review",
+          "year_from": 2016,
+          "year_to": 2026,
+          "sort": "relevance",
+          "limit": 20
+        },
+        "result_count": 450
+      },
+      {
+        "exact_query": "laser fragmentation nanoparticles in liquid",
+        "parameters": {
+          "work_type": "review",
+          "year_from": 2016,
+          "year_to": 2026,
+          "sort": "relevance",
+          "limit": 10
+        },
+        "result_count": 218
+      },
+      {
+        "exact_query": "laser-generated colloidal nanoparticles",
+        "parameters": {
+          "work_type": "review",
+          "year_from": 2016,
+          "year_to": 2026,
+          "sort": "relevance",
+          "limit": 10
+        },
+        "result_count": 674
+      }
+    ],
+    "returned_ids": [
+      "W2587989553",
+      "W4367393972",
+      "W4388628377",
+      "W4404121073",
+      "W2969326827"
+    ],
+    "status": "выполнен"
+  },
+  {
+    "id": "Query-OpenAlex-PLAL-2",
+    "type": "ЗапросКГрафу",
+    "source": "OpenAlex API через research MCP: openalex_search",
+    "date": "2026-10-20",
+    "exact_query": "\"laser ablation\" liquids",
+    "parameters": {
+      "work_type": "review",
+      "year_from": 2016,
+      "year_to": 2026,
+      "sort": "cited_by_count",
+      "limit": 25
+    },
+    "result_count": 456,
+    "returned_ids": [
+      "W4210774372",
+      "W2587989553",
+      "W2765746122",
+      "W4211240480",
+      "W3037620337",
+      "W4321790911",
+      "W4211192178",
+      "W3015841488",
+      "W2767585628",
+      "W2890199413",
+      "W3117960570",
+      "W2916900865",
+      "W3003821136",
+      "W2561508218",
+      "W4392013492",
+      "W2330515363",
+      "W3004642714",
+      "W3017117414",
+      "W4386498843",
+      "W2605322593",
+      "W4290643250",
+      "W4407087511",
+      "W4300688476",
+      "W2784555771",
+      "W3126807580"
+    ],
+    "screening": {
+      "returned_count": 25,
+      "relevant_ids": [
+        "W2587989553"
+      ],
+      "already_in_library": [
+        "W2587989553"
+      ],
+      "new_suitable_reviews": 0,
+      "decision": "Замена двух слабых записей не выполнена: в выдаче не нашлось двух новых обзоров, более подходящих к PLAL, чем текущие. Состав library/reviews.json сохранён (5 записей) с явной оговоркой об ограничении.",
+      "exclusion_examples": [
+        {
+          "openalex_id": "W4210774372",
+          "cited_by": 6997,
+          "reason": "Hepatocellular carcinoma: клиническая онкология, к лазерному синтезу наночастиц отношения не имеет."
+        },
+        {
+          "openalex_id": "W2765746122",
+          "cited_by": 1226,
+          "reason": "Цитотоксичность наночастиц серебра: биологический эффект, не метод синтеза."
+        },
+        {
+          "openalex_id": "W4211240480",
+          "cited_by": 1172,
+          "reason": "Engineering organoids: биотехнология, не PLAL."
+        },
+        {
+          "openalex_id": "W3037620337",
+          "cited_by": 1017,
+          "reason": "Single-atom alloy catalysis: катализ, не лазерная абляция в жидкости."
+        }
+      ],
+      "note": "Фразовый запрос в кавычках OpenAlex обработал широко: в топ-25 по цитированиям преобладают обзоры из других областей. Поэтому число цитирований не является критерием тематической пригодности, а 25 записей — не исчерпывающий библиометрический топ."
+    },
+    "additional_queries": [],
+    "status": "выполнен"
+  },
+  {
+    "id": "Query-Wikidata-TiN",
+    "type": "ЗапросКГрафу",
+    "source": "Wikidata API и Wikidata Query Service через research MCP: wikidata_search, wikidata_sparql",
+    "date": "2026-10-20",
+    "exact_query": "titanium nitride",
+    "parameters": {
+      "language": "en",
+      "limit": 5,
+      "sparql": "SELECT ?label ?instanceOf ?instanceOfLabel ?formula WHERE { OPTIONAL { wd:Q415638 rdfs:label ?label . FILTER(LANG(?label) = \"en\") } OPTIONAL { wd:Q415638 wdt:P31 ?instanceOf . } OPTIONAL { wd:Q415638 wdt:P274 ?formula . } SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } } LIMIT 10"
+    },
+    "returned_ids": [
+      "Q415638"
+    ],
+    "status": "выполнен"
+  }
+]

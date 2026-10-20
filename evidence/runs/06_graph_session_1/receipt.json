@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-19T23:46:37.6936219+00:00",
+  "project": "<PROJECT>",
+  "run": "06_graph_session_1",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "opencode_version": "2.0.16",
+  "exit_code": 0,
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\06_graph_session_1.txt",
+  "ended_at_utc": "2026-10-19T23:48:16.2364137+00:00"
+}

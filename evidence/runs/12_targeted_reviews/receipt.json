@@ -1,0 +1,10 @@
+{
+  "opencode_version": "2.0.16",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "run": "12_targeted_reviews",
+  "project": "<PROJECT>",
+  "ended_at_utc": "2026-10-20T00:00:02.8392890+00:00",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\12_targeted_reviews.txt",
+  "exit_code": 0,
+  "started_at_utc": "2026-10-19T23:58:54.9355214+00:00"
+}

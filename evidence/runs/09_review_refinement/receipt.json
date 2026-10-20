@@ -1,0 +1,10 @@
+{
+  "opencode_version": "2.0.16",
+  "exit_code": 0,
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "run": "09_review_refinement",
+  "project": "<PROJECT>",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\09_review_refinement.txt",
+  "started_at_utc": "2026-10-19T23:56:00.3739072+00:00",
+  "ended_at_utc": "2026-10-19T23:56:52.9119254+00:00"
+}

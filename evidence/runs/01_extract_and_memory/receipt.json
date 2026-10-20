@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-19T23:33:06.4415547+00:00",
+  "ended_at_utc": "2026-10-19T23:34:43.6542024+00:00",
+  "exit_code": 0,
+  "run": "01_extract_and_memory",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\01_extract_and_memory.txt",
+  "opencode_version": "2.0.16",
+  "project": "<PROJECT>"
+}

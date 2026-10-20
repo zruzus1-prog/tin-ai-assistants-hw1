@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "project": "<HW1>\\work\\experiments\\run_without",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "started_at_utc": "2026-10-19T23:54:05.6292587+00:00",
+  "ended_at_utc": "2026-10-19T23:54:25.7261258+00:00",
+  "opencode_version": "2.0.16",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\08_compare_without.txt",
+  "run": "08_compare_without"
+}

@@ -1,0 +1,51 @@
+{
+  "session": {
+    "id": "20261019_1",
+    "total_tokens": 20607,
+    "input_tokens": 19606,
+    "output_tokens": 1001,
+    "accumulated_total_tokens": 40236,
+    "accumulated_input_tokens": 39015,
+    "accumulated_output_tokens": 1221,
+    "goose_mode": "auto"
+  },
+  "usage_ledger": [
+    {
+      "model": "gpt://deepseek-v4-flash/latest",
+      "input_tokens": 6316,
+      "output_tokens": 57,
+      "total_tokens": 6373,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": null,
+      "is_compaction": 0
+    },
+    {
+      "model": "gpt://deepseek-v4-flash/latest",
+      "input_tokens": 6437,
+      "output_tokens": 58,
+      "total_tokens": 6495,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": null,
+      "is_compaction": 0
+    },
+    {
+      "model": "gpt://deepseek-v4-flash/latest",
+      "input_tokens": 6656,
+      "output_tokens": 105,
+      "total_tokens": 6761,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": null,
+      "is_compaction": 0
+    },
+    {
+      "model": "gpt://deepseek-v4-flash/latest",
+      "input_tokens": 19606,
+      "output_tokens": 1001,
+      "total_tokens": 20607,
+      "cache_read_tokens": 6400,
+      "cache_write_tokens": null,
+      "is_compaction": 0
+    }
+  ],
+  "source": "read-only export of own Goose SQLite session; no provider configuration exported"
+}

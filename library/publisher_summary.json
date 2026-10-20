@@ -1,0 +1,47 @@
+[
+  {
+    "openalex_id": "W2587989553",
+    "status": "publisher_check_incomplete",
+    "discrepancies": [],
+    "publisher_url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.6b00468",
+    "student_review": "pending"
+  },
+  {
+    "openalex_id": "W2344885033",
+    "status": "matched_publisher",
+    "discrepancies": [
+      "OpenAlex publication year 2016; publisher issue 34 (2017), pages 80–90. The captured page metadata says online 2017/02/28. The cause of 2016 in OpenAlex was not established; do not automatically explain it as advance publication.",
+      "Title identifies the work as a review; OpenAlex type remains article."
+    ],
+    "publisher_url": "https://www.jstage.jst.go.jp/article/kona/34/0/34_2017009/_article",
+    "student_review": "pending"
+  },
+  {
+    "openalex_id": "W2590450430",
+    "status": "matched_publisher",
+    "discrepancies": [
+      "OpenAlex type=article, while the work is presented as a review in title/abstract; no silent change of the graph field.",
+      "Publisher abstract explicitly calls the work a review, while OpenAlex type is article."
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0079642517300269",
+    "student_review": "pending"
+  },
+  {
+    "openalex_id": "W4367393972",
+    "status": "matched_publisher",
+    "discrepancies": [
+      "Publisher has a public abstract, although OpenAlex abstract is absent. Absence in the graph is not absence at the publisher."
+    ],
+    "publisher_url": "https://link.springer.com/article/10.1007/s11468-023-01852-7",
+    "student_review": "pending"
+  },
+  {
+    "openalex_id": "W4388628377",
+    "status": "matched_publisher",
+    "discrepancies": [
+      "No bibliographic mismatch found in the checked fields."
+    ],
+    "publisher_url": "https://www.mdpi.com/2079-4991/13/22/2940",
+    "student_review": "pending"
+  }
+]

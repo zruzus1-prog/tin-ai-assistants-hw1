@@ -1,0 +1,10 @@
+{
+  "project": "<PROJECT>",
+  "opencode_version": "2.0.16",
+  "ended_at_utc": "2026-10-19T23:56:08.4593418+00:00",
+  "started_at_utc": "2026-10-19T23:56:00.7398927+00:00",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "prompt_file": "<PROJECT>\\evidence\\prompts\\10_guard_probe.txt",
+  "run": "10_guard_probe",
+  "exit_code": 0
+}

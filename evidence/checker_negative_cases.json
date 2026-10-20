@@ -1,0 +1,62 @@
+[
+  {
+    "case": "wrong_volume",
+    "stage": "extraction",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "extraction: FAIL\nERROR: Independent anchor missing/wrong: liquid volume\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:18.841481+00:00"
+  },
+  {
+    "case": "fake_quote",
+    "stage": "extraction",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "extraction: FAIL\nERROR: Row 1: quote not found on page 8\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:18.966147+00:00"
+  },
+  {
+    "case": "missing_fact_source",
+    "stage": "graph",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "graph: FAIL\nERROR: Rule fact_has_source violated: Fact-A09\nERROR: Broken link from Popov-2019: paper/source.json\nERROR: Broken link from Popov-2019: paper/article.pdf\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:19.211740+00:00"
+  },
+  {
+    "case": "method_used_as_process",
+    "stage": "graph",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "graph: FAIL\nERROR: Invalid relation range: Fact-A09/относитсяК/TEM\nERROR: Broken link from Popov-2019: paper/source.json\nERROR: Broken link from Popov-2019: paper/article.pdf\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:19.342894+00:00"
+  },
+  {
+    "case": "unrecorded_student_acceptance",
+    "stage": "graph",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "graph: FAIL\nERROR: Broken link from Popov-2019: paper/source.json\nERROR: Broken link from Popov-2019: paper/article.pdf\nERROR: Student acceptance has no actual review record: Task-Graph-Session-1\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:19.469084+00:00"
+  },
+  {
+    "case": "false_thesis_quote",
+    "stage": "memory",
+    "expected": "reject",
+    "exit_code": 1,
+    "rejected": true,
+    "stdout": "memory: FAIL\nERROR: Thesis quote not on page: T1/2\n",
+    "stderr": "",
+    "checked_at_utc": "2026-10-20T00:05:19.620962+00:00"
+  }
+]

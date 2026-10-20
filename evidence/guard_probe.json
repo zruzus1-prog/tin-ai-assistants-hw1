@@ -1,0 +1,13 @@
+{
+  "run": "10_guard_probe",
+  "tool_calls": 1,
+  "permission_error": [
+    {
+      "tool": "write",
+      "message": "Permission denied: edit"
+    }
+  ],
+  "probe_file_exists": false,
+  "status": "PASS",
+  "scope": "Application permission on edit to paper/*; this is not an OS sandbox claim."
+}

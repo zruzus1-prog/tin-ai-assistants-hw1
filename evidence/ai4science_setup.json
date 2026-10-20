@@ -1,0 +1,7 @@
+{
+  "started_at_utc": "2026-10-19T23:53:30.110180+00:00",
+  "adaptation": "Official setup interrupted during pip self-upgrade; resumed dependencies without upgrading pip. No user PATH changes.",
+  "status": "completed",
+  "doctor_exit_code": 0,
+  "ended_at_utc": "2026-10-19T23:54:11.932944+00:00"
+}

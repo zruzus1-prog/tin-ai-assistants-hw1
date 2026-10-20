@@ -1,0 +1,660 @@
+[
+  {
+    "openalex_id": "W2587989553",
+    "doi": "10.1021/acs.chemrev.6b00468",
+    "checked_at_utc": "2026-10-20T00:01:32.761226+00:00",
+    "reviewer": "independent AI verifier automated independent publisher check; not student acceptance",
+    "publisher_url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.6b00468",
+    "http_status": 403,
+    "response_sha256": "9bf8f1f0cbd601b55c9f797d103ad317bdd45e2d5196ec7e70413a37b836dfce",
+    "metadata": {},
+    "page_title": "Just a moment...",
+    "title_match": false,
+    "doi_match": true,
+    "status": "publisher_check_incomplete",
+    "discrepancies": [],
+    "crossref": {
+      "DOI": "10.1021/acs.chemrev.6b00468",
+      "title": [
+        "Laser Synthesis and Processing of Colloids: Fundamentals and Applications"
+      ],
+      "container-title": [
+        "Chemical Reviews"
+      ],
+      "publisher": "American Chemical Society (ACS)",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            2,
+            13
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            8
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            2,
+            13
+          ]
+        ]
+      },
+      "author": [
+        {
+          "given": "Dongshi",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Technical Chemistry I and\rCenter for Nanointegration Duisburg-Essen (CENIDE), University of Duisburg-Essen, Universitaetsstrasse 7, 45141 Essen, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6368-9659",
+          "authenticated-orcid": true,
+          "given": "Bilal",
+          "family": "Gökce",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical Chemistry I and\rCenter for Nanointegration Duisburg-Essen (CENIDE), University of Duisburg-Essen, Universitaetsstrasse 7, 45141 Essen, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9739-7272",
+          "authenticated-orcid": true,
+          "given": "Stephan",
+          "family": "Barcikowski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical Chemistry I and\rCenter for Nanointegration Duisburg-Essen (CENIDE), University of Duisburg-Essen, Universitaetsstrasse 7, 45141 Essen, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "117",
+      "issue": "5",
+      "page": "3990-4103",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.1021/acs.chemrev.6b00468"
+    }
+  },
+  {
+    "openalex_id": "W2344885033",
+    "doi": "10.14356/kona.2017009",
+    "checked_at_utc": "2026-10-20T00:01:32.761226+00:00",
+    "reviewer": "independent AI verifier automated independent publisher check; not student acceptance",
+    "publisher_url": "https://www.jstage.jst.go.jp/article/kona/34/0/34_2017009/_article",
+    "http_status": 200,
+    "response_sha256": "37928a4099e4789a2856f43f5b4be97a663acffbe5e792c85472e42b4ba8e04f",
+    "metadata": {
+      "citation_journal_title": [
+        "KONA Powder and Particle Journal"
+      ],
+      "citation_author": [
+        "Myungjoon Kim",
+        "Saho Osone",
+        "Taesung Kim",
+        "Hidenori Higashi",
+        "Takafumi Seto"
+      ],
+      "citation_title": [
+        "Synthesis of Nanoparticles by Laser Ablation: A Review"
+      ],
+      "citation_publication_date": [
+        "2017"
+      ],
+      "citation_online_date": [
+        "2017/02/28"
+      ],
+      "citation_volume": [
+        "34"
+      ],
+      "citation_firstpage": [
+        "80"
+      ],
+      "citation_lastpage": [
+        "90"
+      ],
+      "citation_doi": [
+        "10.14356/kona.2017009"
+      ],
+      "dc.identifier": [
+        "10.14356/kona.2017009"
+      ],
+      "og:title": [
+        "Synthesis of Nanoparticles by Laser Ablation: A Review"
+      ]
+    },
+    "page_title": "Synthesis of Nanoparticles by Laser Ablation: A Review",
+    "title_match": true,
+    "doi_match": true,
+    "status": "matched_publisher",
+    "discrepancies": [
+      "OpenAlex publication year 2016; publisher issue 34 (2017), pages 80–90. The captured page metadata says online 2017/02/28. The cause of 2016 in OpenAlex was not established; do not automatically explain it as advance publication.",
+      "Title identifies the work as a review; OpenAlex type remains article."
+    ],
+    "crossref": {
+      "DOI": "10.14356/kona.2017009",
+      "title": [
+        "Synthesis of Nanoparticles by Laser Ablation: A Review"
+      ],
+      "container-title": [
+        "KONA Powder and Particle Journal"
+      ],
+      "publisher": "Hosokawa Powder Technology Foundation",
+      "published": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "published-online": null,
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-6030-1756",
+          "authenticated-orcid": false,
+          "given": "Myungjoon",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04q78tk20",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "School of Mechanical Engineering, Sungkyunkwan University, Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saho",
+          "family": "Osone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02hwp6a56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Faculty of Natural System, Kanazawa University, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Taesung",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04q78tk20",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "School of Mechanical Engineering, Sungkyunkwan University, Korea"
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04q78tk20",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "SKKU Advanced Institute of Nano Technology (SAINT), Sungkyunkwan University, Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6609-8472",
+          "authenticated-orcid": false,
+          "given": "Hidenori",
+          "family": "Higashi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02hwp6a56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Faculty of Natural System, Kanazawa University, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7821-7096",
+          "authenticated-orcid": false,
+          "given": "Takafumi",
+          "family": "Seto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02hwp6a56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Faculty of Natural System, Kanazawa University, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "34",
+      "issue": "0",
+      "page": "80-90",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.14356/kona.2017009"
+    }
+  },
+  {
+    "openalex_id": "W2590450430",
+    "doi": "10.1016/j.pmatsci.2017.02.004",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "reviewer": "independent AI verifier automated independent publisher check; not student acceptance",
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0079642517300269",
+    "http_status": 200,
+    "response_sha256": "45ab724f368919f8843a25b94fa5ea6b996ea7b0645c7f78e3618c7c7d8c54f3",
+    "metadata": {},
+    "page_title": "Redirecting",
+    "title_match": false,
+    "doi_match": false,
+    "status": "matched_publisher",
+    "discrepancies": [
+      "OpenAlex type=article, while the work is presented as a review in title/abstract; no silent change of the graph field.",
+      "Publisher abstract explicitly calls the work a review, while OpenAlex type is article."
+    ],
+    "crossref": {
+      "DOI": "10.1016/j.pmatsci.2017.02.004",
+      "title": [
+        "External field-assisted laser ablation in liquid: An efficient strategy for nanocrystal synthesis and nanostructure assembly"
+      ],
+      "container-title": [
+        "Progress in Materials Science"
+      ],
+      "publisher": "Elsevier BV",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            6
+          ]
+        ]
+      },
+      "published-online": null,
+      "author": [
+        {
+          "given": "J.",
+          "family": "Xiao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.X.",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.W.",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "87",
+      "issue": null,
+      "page": "140-220",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.1016/j.pmatsci.2017.02.004"
+    },
+    "independent_web_check": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0079642517300269",
+      "method": "Search service returned indexed publisher page (direct HTTP only returned a redirect stub)",
+      "fields": {
+        "year": 2017,
+        "journal": "Progress in Materials Science",
+        "volume": "87",
+        "pages": "140–220",
+        "doi": "10.1016/j.pmatsci.2017.02.004"
+      },
+      "discrepancy": "Publisher abstract explicitly calls the work a review, while OpenAlex type is article."
+    },
+    "checked_scope": "Public bibliographic metadata, not a full-text scientific review; student confirmation pending"
+  },
+  {
+    "openalex_id": "W4367393972",
+    "doi": "10.1007/s11468-023-01852-7",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "reviewer": "independent AI verifier automated independent publisher check; not student acceptance",
+    "publisher_url": "https://link.springer.com/10.1007/s11468-023-01852-7",
+    "http_status": 200,
+    "response_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "metadata": {},
+    "page_title": "Client Challenge",
+    "title_match": false,
+    "doi_match": false,
+    "status": "matched_publisher",
+    "discrepancies": [
+      "Publisher has a public abstract, although OpenAlex abstract is absent. Absence in the graph is not absence at the publisher."
+    ],
+    "crossref": {
+      "DOI": "10.1007/s11468-023-01852-7",
+      "title": [
+        "Effect of Liquid and Laser Parameters on Fabrication of Nanoparticles via Pulsed Laser Ablation in Liquid with Their Applications: A Review"
+      ],
+      "container-title": [
+        "Plasmonics"
+      ],
+      "publisher": "Springer Science and Business Media LLC",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            29
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            8
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            29
+          ]
+        ]
+      },
+      "author": [
+        {
+          "given": "Ali H.",
+          "family": "Attallah",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Farah Shamil",
+          "family": "Abdulwahid",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasir A.",
+          "family": "Ali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adawiya J.",
+          "family": "Haider",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "18",
+      "issue": "4",
+      "page": "1307-1323",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.1007/s11468-023-01852-7"
+    },
+    "independent_web_check": {
+      "url": "https://link.springer.com/article/10.1007/s11468-023-01852-7",
+      "method": "Publisher page opened and parsed by web tool",
+      "fields": {
+        "year": 2023,
+        "published_online": "2023-04-29",
+        "journal": "Plasmonics",
+        "volume": "18",
+        "pages": "1307–1323",
+        "authors": [
+          "Ali H. Attallah",
+          "Farah Shamil Abdulwahid",
+          "Yasir A. Ali",
+          "Adawiya J. Haider"
+        ]
+      },
+      "discrepancy": "Publisher has a public abstract, although OpenAlex abstract is absent. Absence in the graph is not absence at the publisher."
+    },
+    "checked_scope": "Public bibliographic metadata, not a full-text scientific review; student confirmation pending"
+  },
+  {
+    "openalex_id": "W4388628377",
+    "doi": "10.3390/nano13222940",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "reviewer": "independent AI verifier automated independent publisher check; not student acceptance",
+    "publisher_url": "https://www.mdpi.com/2079-4991/13/22/2940",
+    "http_status": 403,
+    "response_sha256": "40ce0ec5c6ad5e06bc711320d4c813af24b2e0aa003125053017ae81de2ece4c",
+    "metadata": {},
+    "page_title": "Access Denied",
+    "title_match": false,
+    "doi_match": false,
+    "status": "matched_publisher",
+    "discrepancies": [
+      "No bibliographic mismatch found in the checked fields."
+    ],
+    "crossref": {
+      "DOI": "10.3390/nano13222940",
+      "title": [
+        "Fabrication of Au–Ag Bimetallic Nanoparticles Using Pulsed Laser Ablation for Medical Applications: A Review"
+      ],
+      "container-title": [
+        "Nanomaterials"
+      ],
+      "publisher": "MDPI AG",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            13
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            13
+          ]
+        ]
+      },
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7903-3870",
+          "authenticated-orcid": false,
+          "given": "Muidh",
+          "family": "Alheshibri",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "General Studies Department, Jubail Industrial College, P.O. Box 10099, Jubail Industrial City 31961, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "13",
+      "issue": "22",
+      "page": "2940",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.3390/nano13222940"
+    },
+    "independent_web_check": {
+      "url": "https://www.mdpi.com/2079-4991/13/22/2940",
+      "method": "Search service returned indexed publisher page (direct HTTP returned 403)",
+      "fields": {
+        "year": 2023,
+        "published": "2023-11-13",
+        "journal": "Nanomaterials",
+        "volume": "13",
+        "issue": "22",
+        "article": "2940",
+        "author": "Muidh Alheshibri",
+        "doi": "10.3390/nano13222940",
+        "publisher_genre": "Review"
+      },
+      "discrepancy": "No bibliographic mismatch found in the checked fields."
+    },
+    "checked_scope": "Public bibliographic metadata, not a full-text scientific review; student confirmation pending"
+  }
+]

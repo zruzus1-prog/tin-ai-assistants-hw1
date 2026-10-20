@@ -1,0 +1,46 @@
+[
+  {
+    "thesis_id": "T1",
+    "page": 2,
+    "quote": "(Yb:KGW , 1025 nm, 1–100 kHz)",
+    "result": "verified_against_source",
+    "reviewer": "independent AI verifier; independent of authoring DeepSeek session",
+    "method": "Read rendered PDF pages 2 and 8 and their extracted text; interpreted context, not only substring.",
+    "comment": "Confirmed 1025 nm, instrument range 1–100 kHz and water/acetone context. A range is not a claim that every run used every frequency.",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "student_review": "pending"
+  },
+  {
+    "thesis_id": "T2",
+    "page": 2,
+    "quote": "for 100 μJ pulse energy and 5 kHz repetition rate saturation time was 15 min",
+    "result": "verified_against_source",
+    "reviewer": "independent AI verifier; independent of authoring DeepSeek session",
+    "method": "Read rendered PDF pages 2 and 8 and their extracted text; interpreted context, not only substring.",
+    "comment": "Confirmed 100 microjoule, 5 kHz, 15 min and about 100 microgram/mL. The solvent is not specified for this particular saturation result.",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "student_review": "pending"
+  },
+  {
+    "thesis_id": "T4",
+    "page": 2,
+    "quote": "the increase of pulse energy from 10 to 100 μJ led to the increase of NPs mean diameter from 25 to 40 nm",
+    "result": "verified_against_source",
+    "reviewer": "independent AI verifier; independent of authoring DeepSeek session",
+    "method": "Read rendered PDF pages 2 and 8 and their extracted text; interpreted context, not only substring.",
+    "comment": "Confirmed acetone 25→40 nm for 10→100 microjoule, while water stays around 30 nm. These are TEM mean sizes, not FWHM or hydrodynamic sizes.",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "student_review": "pending"
+  },
+  {
+    "thesis_id": "T9",
+    "page": 2,
+    "quote": "for 100 μJ pulse energy and 5 kHz repetition rate saturation time was 15 min",
+    "result": "verified_against_source",
+    "reviewer": "independent AI verifier; independent of authoring DeepSeek session",
+    "method": "Read rendered PDF pages 2 and 8 and their extracted text; interpreted context, not only substring.",
+    "comment": "Both passages exist; units differ by a factor of 1000. Kept as an unresolved source discrepancy; not silently corrected.",
+    "checked_at_utc": "2026-10-20T00:03:00.563267+00:00",
+    "student_review": "pending"
+  }
+]

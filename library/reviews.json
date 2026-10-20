@@ -1,0 +1,96 @@
+[
+  {
+    "openalex_id": "W2587989553",
+    "title": "Laser Synthesis and Processing of Colloids: Fundamentals and Applications",
+    "year": 2017,
+    "doi": "10.1021/acs.chemrev.6b00468",
+    "source": "Chemical Reviews",
+    "type": "review",
+    "cited_by": 1338,
+    "query_id": "Query-OpenAlex-PLAL",
+    "relevance_to_project": "Фундаментальный обзор лазерного синтеза и обработки коллоидов (LSPC), включая абляцию, фрагментацию и плавление в жидкостях. Методологическая основа для TiN/PLAL; сам обзор не посвящён TiN.",
+    "abstract_available": true,
+    "authors": [
+      "Dongshi Zhang",
+      "Bilal Gökce",
+      "Stephan Barcikowski"
+    ],
+    "openalex_publication_date": "2017-02-13"
+  },
+  {
+    "openalex_id": "W2344885033",
+    "title": "Synthesis of Nanoparticles by Laser Ablation: A Review",
+    "year": 2016,
+    "doi": "10.14356/kona.2017009",
+    "source": "KONA Powder and Particle Journal",
+    "type": "article",
+    "cited_by": 480,
+    "query_id": "Query-Targeted-2",
+    "relevance_to_project": "Обзор механизмов образования наночастиц при лазерной абляции и управления их размером. По аннотации среда — background gas, а не жидкость, поэтому к PLAL относится частично: полезен для общих механизмов нуклеации/роста, но не как источник условий абляции в жидкости.",
+    "abstract_available": true,
+    "review_classification_note": "OpenAlex type=article; по названию и аннотации работа является обзором. Фактический тип графа сохранён как article, без подмены на review. Статус: independent_publisher_check_pending.",
+    "authors": [
+      "Myungjoon Kim",
+      "Saho Osone",
+      "Taesung Kim",
+      "Hidenori Higashi",
+      "Takafumi Seto"
+    ],
+    "openalex_publication_date": "2016-04-29"
+  },
+  {
+    "openalex_id": "W2590450430",
+    "title": "External field-assisted laser ablation in liquid: An efficient strategy for nanocrystal synthesis and nanostructure assembly",
+    "year": 2017,
+    "doi": "10.1016/j.pmatsci.2017.02.004",
+    "source": "Progress in Materials Science",
+    "type": "article",
+    "cited_by": 352,
+    "query_id": "Query-Targeted-1",
+    "relevance_to_project": "Комплексный обзор лазерной абляции в жидкости (LAL): фундаментальные процессы в плазме, кавитационных пузырях и каплях, внешние поля, синтез нанокристаллов и сборка наноструктур. Прямо относится к PLAL-методологии, но не к TiN.",
+    "abstract_available": true,
+    "review_classification_note": "OpenAlex type=article; по названию и аннотации работа является обзором (review). Фактический тип графа сохранён как article, без подмены на review. Статус: independent_publisher_check_pending.",
+    "authors": [
+      "J. Xiao",
+      "Pu Liu",
+      "C. X. Wang",
+      "Guokun Yang"
+    ],
+    "openalex_publication_date": "2017-02-24"
+  },
+  {
+    "openalex_id": "W4367393972",
+    "title": "Effect of Liquid and Laser Parameters on Fabrication of Nanoparticles via Pulsed Laser Ablation in Liquid with Their Applications: A Review",
+    "year": 2023,
+    "doi": "10.1007/s11468-023-01852-7",
+    "source": "Plasmonics",
+    "type": "review",
+    "cited_by": 55,
+    "query_id": "Query-OpenAlex-PLAL",
+    "relevance_to_project": "Обзор влияния параметров жидкости и лазера на получение наночастиц методом PLAL. Непосредственно относится к выбору условий синтеза; материал в обзоре не ограничен TiN.",
+    "abstract_available": false,
+    "authors": [
+      "Ali H. Attallah",
+      "Farah Shamil Abdulwahid",
+      "Yasir A. Ali",
+      "Adawiya J. Haider"
+    ],
+    "openalex_publication_date": "2023-04-29"
+  },
+  {
+    "openalex_id": "W4388628377",
+    "title": "Fabrication of Au–Ag Bimetallic Nanoparticles Using Pulsed Laser Ablation for Medical Applications: A Review",
+    "year": 2023,
+    "doi": "10.3390/nano13222940",
+    "source": "Nanomaterials",
+    "type": "review",
+    "cited_by": 35,
+    "query_id": "Query-OpenAlex-PLAL",
+    "relevance_to_project": "Обзор PLAL биметаллических наночастиц Au–Ag: параметры лазера, состав мишени и среда. Релевантен методике и факторам синтеза, но не является обзором по TiN.",
+    "abstract_available": true,
+    "authors": [
+      "Muidh Alheshibri"
+    ],
+    "openalex_publication_date": "2023-11-13"
+  }
+]

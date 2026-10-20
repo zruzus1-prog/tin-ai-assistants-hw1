@@ -1,0 +1,2 @@
+# Deterministic verification and offline search replay
+numpy==2.5.4

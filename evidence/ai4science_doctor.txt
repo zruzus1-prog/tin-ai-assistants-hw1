@@ -1,0 +1,14 @@
+=== AI4Science doctor ===
+.env: OK (<HW_ROOT>\work\AI4Science-main\.env)
+YANDEX_CLOUD_API_KEY: задан (40 символов)
+YANDEX_CLOUD_FOLDER: b1gi39jvrih75di87rqs
+модель: deepseek-v4-flash/latest
+модель для /plan: qwen3-235b-a22b-fp8/latest
+данные Goose (сессии, журналы): <HW_ROOT>\work\AI4Science-main\.goose
+ОС: win32, Python 3.12.10
+goose: 1.50.0
+python venv: Python 3.12.10
+MCP ai4science: OK (17 инструментов: token_budget, load_artifact, list_skills, load_skill, lean_check, lean_health, lean_search_engines, lean_search_loogle, lean_search_leansearch, lean_search_moogle, lean_search_scilib, web_search, web_fetch, pdf_download, pdf_info, pdf_read, pdf_search)
+lean-checker: подключён (https://scilibai.ru/grag)
+бюджет: 0 / 3,000,000 (осталось 3,000,000)
+

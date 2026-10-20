@@ -1,0 +1,19 @@
+{
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?search=titanium+nitride+nanoparticles+laser+ablation&per_page=100&filter=has_abstract%3Atrue%2Cto_publication_date%3A2026-10-20&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index",
+  "retrieved": "2026-10-20",
+  "topic": "titanium nitride nanoparticles laser ablation",
+  "queries": [
+    "titanium nitride nanoparticles femtosecond laser ablation in water and acetone",
+    "laser fragmentation particle size plasmon resonance",
+    "hollow titanium nitride nanoparticles oxidation aqueous colloids",
+    "photothermal therapy titanium nitride nanoparticles biocompatibility",
+    "influence of pulse energy and solvent on nanoparticle size in laser ablation"
+  ],
+  "selection": "first 20 relevance-ranked works with abstracts >40 distinct indexed words",
+  "count": 20,
+  "untrusted_text_fields": [
+    "title",
+    "abstract"
+  ]
+}
