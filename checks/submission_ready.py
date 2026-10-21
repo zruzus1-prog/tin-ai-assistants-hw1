@@ -15,11 +15,11 @@ def validate(record):
 def main():
     p=ROOT/'student_review.json'
     if not p.exists():
-        print('PENDING: student review has not been recorded. Open REVIEW.html.');return 2
+        print('PENDING: student review has not been recorded. Provide the actual student_review.json record.');return 2
     try:errors=validate(json.loads(p.read_text(encoding='utf-8-sig')))
     except (ValueError,TypeError):errors=['Invalid student review JSON']
     for e in errors:print('PENDING:',e)
     if errors:return 2
-    print('PASS: own comments and explicit student review are recorded. Public repo URL and form submission remain separate actions.')
+    print('PASS: own comments and explicit student review are recorded. ')
     return 0
 if __name__=='__main__':raise SystemExit(main())

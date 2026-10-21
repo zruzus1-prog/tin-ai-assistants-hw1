@@ -131,16 +131,6 @@
       "action": "edit",
       "resource": "student_review.json",
       "effect": "deny"
-    },
-    {
-      "action": "edit",
-      "resource": "src/apply_student_review.py",
-      "effect": "deny"
-    },
-    {
-      "action": "edit",
-      "resource": "REVIEW.html",
-      "effect": "deny"
     }
   ],
   "mcp": {

@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-21T17:57:38.628335+00:00",
+  "checked_at_utc": "2026-10-21T18:11:14.803908+00:00",
   "commands": [
     {
       "command": "python checks/check.py all",
@@ -16,7 +16,7 @@
     {
       "command": "python checks/submission_ready.py",
       "exit_code": 0,
-      "stdout": "PASS: own comments and explicit student review are recorded. Public repo URL and form submission remain separate actions.\n",
+      "stdout": "PASS: own comments and explicit student review are recorded. \n",
       "stderr": ""
     }
   ],
@@ -38,7 +38,5 @@
   "technical_status": "PASS",
   "student_review": "PASS: saved declarations and exact comments recorded",
   "authorship_limitation": "The validator checks completeness of the submitted declaration, not independent proof of authorship.",
-  "source_pdf_hash": "PASS",
-  "publication": "NOT_PUBLISHED",
-  "submission": "NOT_SENT"
+  "source_pdf_hash": "PASS"
 }
