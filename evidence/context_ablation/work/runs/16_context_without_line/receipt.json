@@ -1,0 +1,10 @@
+{
+  "opencode_version": "2.0.16",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "run": "16_context_without_line",
+  "prompt_file": "<HW_ROOT>\\work\\context_ablation\\prompt.txt",
+  "exit_code": 1,
+  "ended_at_utc": "2026-10-21T18:23:41.7851369+00:00",
+  "started_at_utc": "2026-10-21T18:23:41.1706746+00:00",
+  "project": "<HW_ROOT>\\work\\context_ablation\\without_line"
+}

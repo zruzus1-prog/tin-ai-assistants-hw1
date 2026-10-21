@@ -13,6 +13,10 @@ STOP=set('a an and are as at be by for from has have in is it its of on or that 
 def tokenize(text):
     return [w for w in re.findall(r'[a-zа-яё0-9]+',text.lower()) if w not in STOP and len(w)>1]
 def replay(root=ROOT):
+    """Данные: library/corpus.jsonl, library/rankings.json и сохранённые library/*_vectors.npy.
+    Проверка: размеры, нормы, оценки и порядок BM25/cosine проверяются сравнением с сохранёнными результатами; расхождение даёт ValueError.
+    Используется в: checks/replay_search.py::__main__ и CHECK.cmd для независимого пересчёта без сети.
+    """
     docs=[json.loads(x) for x in (root/'library/corpus.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
     rankings=json.loads((root/'library/rankings.json').read_text(encoding='utf-8'))
     dv=np.load(root/'library/document_vectors.npy',allow_pickle=False)

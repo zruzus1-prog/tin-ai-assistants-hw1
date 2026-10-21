@@ -5,6 +5,7 @@ type: Источник
 
 - тип: [[Источник]]
 - связанСМетодом: [[TEM]]
+- хранитсяВ: [[File-Popov-PDF]]
 
 [порождено] Первоисточник проекта: Popov A. A. et al. «Laser-ablative synthesis of plasmonic TiN nanoparticles for biomedical applications», 2019.
 

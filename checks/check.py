@@ -28,6 +28,10 @@ def extraction(root: Path) -> list[str]:
 
     Do not use this as a semantic or clinical validator. See results/conflicts.md
     and evidence/thesis_verification.json for context that a substring cannot check.
+
+    Данные: results/conditions.csv, paper/pages/page_XX.txt и исходный paper/article.pdf; контрольные значения выписаны из PDF с. 8.
+    Проверка: evidence/checker_negative_cases.json фиксирует отклонение испорченных чисел и цитат; хеш PDF проверяется независимо.
+    Используется в: checks/check.py::main для стадий extraction и all, запускаемых также через CHECK.cmd.
     """
     errors=[]
     p=root/'results/conditions.csv'

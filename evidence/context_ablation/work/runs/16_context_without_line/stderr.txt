@@ -1,0 +1,6 @@
+Error: Standalone server exited before reporting readiness
+    at <anonymous> (B:/~BUN/root/chunk-mqene116.js:2:974)
+    at cli.standalone.endpoint (B:/~BUN/root/chunk-vsdc3j7d.js:3:63)
+    at cli.standalone.endpoint (definition) (B:/~BUN/root/chunk-mqene116.js:2:795)
+    at cli.server-connection.resolve (B:/~BUN/root/chunk-642arybg.js:2:900)
+    at cli.server-connection.resolve (definition) (B:/~BUN/root/chunk-vsdc3j7d.js:2:399)

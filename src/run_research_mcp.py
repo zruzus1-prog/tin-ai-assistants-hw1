@@ -28,6 +28,10 @@ original_http = module._http_json
 audit_path = ROOT/'evidence/research_api_calls.jsonl'
 
 def audited_http(url, params, accept='application/json', timeout=60):
+    """Данные: src/research_mcp.py::_http_json получает URL и параметры запроса; ключи исключаются из сохраняемых параметров.
+    Проверка: checks/check.py::literature проверяет наличие успешных фактических вызовов в evidence/research_api_calls.jsonl.
+    Используется в: src/research_mcp.py::_openalex, wikidata_search и wikidata_sparql через подмену module._http_json.
+    """
     public = {k:v for k,v in params.items() if k.lower() not in {'api_key','key','token'}}
     entry = {'started_at_utc':datetime.now(timezone.utc).isoformat(),
              'method':'GET', 'url':url, 'params':public}

@@ -1,0 +1,7 @@
+{
+  "stages": [
+    "fragmentation",
+    "ablation_acetone",
+    "ablation_water"
+  ]
+}

@@ -14,13 +14,13 @@ for biomedical applications*, Scientific Reports 9, 1194 (2019).
 |---|---|
 | Условия и результаты опытов: 27 записей с цитатами и страницами | [conditions.csv](results/conditions.csv), [conflicts.md](results/conflicts.md) |
 | Сжатие в отдельных контекстах L1 → L2 → L3 | [memory/](memory/), [проверка тезисов](evidence/thesis_verification.json) |
-| Онтология: 7 классов, 4 правила, 23 объекта; две сессии графа | [ontology.yaml](ontology.yaml), [graph_view.md](graph_view.md), [graph_literature.md](graph_literature.md) |
+| Онтология: 8 классов, 4 правила, 25 объектов; две сессии графа | [ontology.yaml](ontology.yaml), [graph_view.md](graph_view.md), [graph_literature.md](graph_literature.md) |
 | Выполненные ноутбуки недель 3 и 5 | [agent_loop_TiN.ipynb](notebooks/agent_loop_TiN.ipynb), [search_lab_TiN.ipynb](notebooks/search_lab_TiN.ipynb) |
 | BM25 и dense: 20 аннотаций, 5 запросов, 5 комментариев | [my_search_report.md](reports/my_search_report.md) |
 | Пять обзоров, OpenAlex, Wikidata/SPARQL, проверка метаданных | [literature_mcp.md](reports/literature_mcp.md) |
 | Сравнение с/без AGENTS и проверка ограничений агента | [agents_comparison.md](reports/agents_comparison.md), [diary.md](diary.md), [evidence/](evidence/) |
 
-Карта файлов — [INDEX.md](INDEX.md). Соответствие требованиям —
+Карта файлов — [INDEX.md](INDEX.md).
 
 ## Проверка
 
@@ -43,7 +43,9 @@ python checks/submission_ready.py
 Основные прогоны: **OpenCode 2.0.16 / DeepSeek V4.1 Flash Free**.
 Независимые проверки и интеграция подготовлены с помощью отдельного ИИ.
 Дополнительно использованы **AI4Science / Goose 1.50.0 / Yandex DeepSeek V4 Flash**.
-Различия оболочек сохранены явно; их формальная эквивалентность не утверждается.
+В ноутбуке число повторений уменьшено с 12/8 до 3; qwen235 был недоступен
+(PermissionDeniedError), GPT-OSS120B и DeepSeek работали. Основная серия
+OpenCode и отдельные прогоны AI4Science сохранены раздельно.
 
 `[порождено]` — текст ИИ; `[источник]` — исходные данные;
 `[написано]` — комментарии, подтверждённые студентом.

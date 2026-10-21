@@ -1,0 +1,166 @@
+{
+  "experiment": "week_3_with_without_one_context_line",
+  "source_commit": "b7e9e6f2ec8c3ec88ffcb3f06f8c54d4c8dbd0ff",
+  "new_convention": "В кратких сводках условий проекта порядок разделов фиксирован: fragmentation, ablation_acetone, ablation_water; это порядок отчёта, а не хронология опытов.",
+  "convention_status": "introduced as a report-order convention for this controlled experiment; not a scientific observation",
+  "expected_order": [
+    "fragmentation",
+    "ablation_acetone",
+    "ablation_water"
+  ],
+  "identical_task": true,
+  "differences_before_run": [
+    "AGENTS.md"
+  ],
+  "runs": [
+    {
+      "run": "16_context_with_line",
+      "mode": "with_line",
+      "receipt": {
+        "prompt_file": "<HW_ROOT>\\work\\context_ablation\\prompt.txt",
+        "exit_code": 0,
+        "run": "16_context_with_line",
+        "project": "<HW_ROOT>\\work\\context_ablation\\with_line",
+        "opencode_version": "2.0.16",
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "started_at_utc": "2026-10-21T18:23:41.1706796+00:00",
+        "ended_at_utc": "2026-10-21T18:23:47.0450629+00:00"
+      },
+      "session_ids": [
+        "ses_ea04b94d0ffe6SlFMyT2r4wtVy"
+      ],
+      "answer": {
+        "stages": [
+          "fragmentation",
+          "ablation_acetone",
+          "ablation_water"
+        ]
+      },
+      "follows_convention": true,
+      "tool_count": 2,
+      "calls": [
+        {
+          "call_id": "call_00_gbd6gqvh4mc4gkiyvmuz1x52",
+          "tool": "read",
+          "status": "completed",
+          "input": {
+            "path": "<HW_ROOT>\\work\\context_ablation\\with_line\\AGENTS.md"
+          },
+          "output_preview": "Read file <HW_ROOT>\\work\\context_ablation\\with_line\\AGENTS.md, lines 1-105\n1: # TiN literature: проверяемое извлечение условий синтеза\r\n2: \r\n3: ## 0. Цель и образ результата\r\n4: \r\n5: По статье Popov et al."
+        },
+        {
+          "call_id": "call_01_wf44kxgldrmz60n0n6qni22v",
+          "tool": "read",
+          "status": "completed",
+          "input": {
+            "path": "<HW_ROOT>\\work\\context_ablation\\with_line\\results\\conditions.csv"
+          },
+          "output_preview": "Read file <HW_ROOT>\\work\\context_ablation\\with_line\\results\\conditions.csv, lines 1-28\n1: id,process,medium,parameter,value,unit,page,quote,status\n2: A-01,ablation,water/acetone,liquid volume,7,mL,8,\"fille"
+        }
+      ],
+      "reported_cost": 0,
+      "tokens": {
+        "input": 3326,
+        "output": 137,
+        "reasoning": 158,
+        "cache_read": 128
+      },
+      "copy_unchanged_after_run": true
+    },
+    {
+      "run": "16_context_without_line_retry",
+      "mode": "without_line",
+      "receipt": {
+        "started_at_utc": "2026-10-21T18:24:05.0852459+00:00",
+        "run": "16_context_without_line_retry",
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "prompt_file": "<HW_ROOT>\\work\\context_ablation\\prompt.txt",
+        "ended_at_utc": "2026-10-21T18:24:14.1497550+00:00",
+        "exit_code": 0,
+        "project": "<HW_ROOT>\\work\\context_ablation\\without_line",
+        "opencode_version": "2.0.16"
+      },
+      "session_ids": [
+        "ses_ea04b382effe1QhY51mz16dXRM"
+      ],
+      "answer": {
+        "stages": [
+          "ablation_water",
+          "ablation_acetone",
+          "fragmentation"
+        ]
+      },
+      "follows_convention": false,
+      "tool_count": 4,
+      "calls": [
+        {
+          "call_id": "call_01_aejwxairlnld6m0fp5jnxoed",
+          "tool": "read",
+          "status": "completed",
+          "input": {
+            "path": "<HW_ROOT>\\work\\context_ablation\\without_line\\AGENTS.md"
+          },
+          "output_preview": "Read file <HW_ROOT>\\work\\context_ablation\\without_line\\AGENTS.md, lines 1-103\n1: # TiN literature: проверяемое извлечение условий синтеза\r\n2: \r\n3: ## 0. Цель и образ результата\r\n4: \r\n5: По статье Popov et "
+        },
+        {
+          "call_id": "call_00_aw833f9rweqamit6lesa0mf9",
+          "tool": "read",
+          "status": "completed",
+          "input": {
+            "path": "<HW_ROOT>\\work\\context_ablation\\without_line\\results\\conditions.csv"
+          },
+          "output_preview": "Read file <HW_ROOT>\\work\\context_ablation\\without_line\\results\\conditions.csv, lines 1-28\n1: id,process,medium,parameter,value,unit,page,quote,status\n2: A-01,ablation,water/acetone,liquid volume,7,mL,8,\"fi"
+        },
+        {
+          "call_id": "call_01_uj721z1ay6yjmd1pnkg0esp7",
+          "tool": "read",
+          "status": "completed",
+          "input": {
+            "path": "<HW_ROOT>\\work\\context_ablation\\without_line\\STATUS.md"
+          },
+          "output_preview": "Read file <HW_ROOT>\\work\\context_ablation\\without_line\\STATUS.md, lines 1-18\n1: # Состояние исследовательского проекта\r\n2: \r\n3: [порождено] Обновлено 21.10.2026.\r\n4: \r\n5: - Первоисточник: статья Popov et a"
+        },
+        {
+          "call_id": "call_00_uc7fu58zwjp6zrued8nbybzz",
+          "tool": "grep",
+          "status": "completed",
+          "input": {
+            "pattern": "ablation_water|ablation_acetone|порядок разделов|fragmentation",
+            "path": "<HW_ROOT>\\work\\context_ablation\\without_line",
+            "include": "*.md",
+            "limit": 40
+          },
+          "output_preview": "Found 5 matches\n<HW_ROOT>\\work\\context_ablation\\without_line\\reports\\my_search_report.md:\n  Line 15: ## laser fragmentation particle size plasmon resonance\r\n\n\n<USER_PROFILE>\\Documents\\independent AI verifier\\SHAD-AI-Assist"
+        }
+      ],
+      "reported_cost": 0,
+      "tokens": {
+        "input": 6824,
+        "output": 339,
+        "reasoning": 311,
+        "cache_read": 3456
+      },
+      "copy_unchanged_after_run": true
+    }
+  ],
+  "startup_attempt": {
+    "receipt": {
+      "opencode_version": "2.0.16",
+      "model": "opencode/deepseek-v4.1-flash-free",
+      "run": "16_context_without_line",
+      "prompt_file": "<HW_ROOT>\\work\\context_ablation\\prompt.txt",
+      "exit_code": 1,
+      "ended_at_utc": "2026-10-21T18:23:41.7851369+00:00",
+      "started_at_utc": "2026-10-21T18:23:41.1706746+00:00",
+      "project": "<HW_ROOT>\\work\\context_ablation\\without_line"
+    },
+    "stderr": "Error: Standalone server exited before reporting readiness\n    at <anonymous> (B:/~BUN/root/chunk-mqene116.js:2:974)\n    at cli.standalone.endpoint (B:/~BUN/root/chunk-vsdc3j7d.js:3:63)\n    at cli.standalone.endpoint (definition) (B:/~BUN/root/chunk-mqene116.js:2:795)\n    at cli.server-connection.resolve (B:/~BUN/root/chunk-642arybg.js:2:900)\n    at cli.server-connection.resolve (definition) (B:/~BUN/root/chunk-vsdc3j7d.js:2:399)\n",
+    "events_count": 0,
+    "retry_note": "First without-line standalone server exited before readiness; preserved and retried in a fresh standalone session after the other process finished."
+  },
+  "answers_equal": false,
+  "primary_pdf_unchanged": true,
+  "original_source_pdf_unchanged": true,
+  "cost_scope": "sum of cost fields actually present in step_finish events; not a separate provider invoice",
+  "source_commit_scope": "Input snapshot before publication filtering; exact experimental inputs are recorded by preparation.json and the included AGENTS copies."
+}

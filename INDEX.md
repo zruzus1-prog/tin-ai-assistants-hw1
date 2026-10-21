@@ -14,7 +14,7 @@
 | `memory/L1.md`, `memory/cascade/` | Сжатия трёх частей в отдельных окнах |
 | `memory/L2.md`, `memory/theses.json` | Девять проверяемых тезисов и записи сверки |
 | `memory/L3.md` | Итог одной строкой |
-| `ontology.yaml`, `ontology/` | Семь классов, типы отношений и четыре правила |
+| `ontology.yaml`, `ontology/` | Восемь классов, типы отношений и четыре правила |
 | `notes/`, `tasks/` | Объекты графа, задачи и результаты двух сеансов |
 | `graph_view.md`, `graph_literature.md` | Два представления графа в Mermaid |
 | `library/corpus.jsonl` | 20 работ с аннотациями для своего поиска |
@@ -30,6 +30,7 @@
 | `src/research_mcp.py` | Неизменённый модуль MCP из материалов курса |
 | `src/run_research_mcp.py` | Запуск модуля с ключом из окружения и аудитом GET-запросов |
 | `evidence/runs/`, `evidence/run_summary.json` | Реальные журналы DeepSeek/OpenCode, а не пересказ действий |
+| `evidence/context_ablation/` | Два действительных прогона со строкой соглашения и без неё |
 | `evidence/ai4science_*` | Установка, doctor и действительный запуск Goose/Yandex |
 | `evidence/research_api_calls.jsonl` | Ответы OpenAlex/Wikidata с редактированными параметрами запроса |
 | `evidence/publisher_verification.json`, `thesis_verification.json` | Что проверил ИИ; студентская проверка выделена отдельно |
