@@ -3,6 +3,7 @@ setlocal
 cd /d "%~dp0"
 set "PYTHONIOENCODING=utf-8"
 set "HW1_PY=..\work\venv\Scripts\python.exe"
+if not exist "%HW1_PY%" set "HW1_PY=..\..\work\venv\Scripts\python.exe"
 if not exist "%HW1_PY%" set "HW1_PY=.venv\Scripts\python.exe"
 if not exist "%HW1_PY%" set "HW1_PY=python"
 "%HW1_PY%" checks\check.py all

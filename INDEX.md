@@ -34,7 +34,7 @@
 | `evidence/runs/`, `evidence/run_summary.json` | Реальные журналы DeepSeek/OpenCode, а не пересказ действий |
 | `evidence/ai4science_*` | Установка, doctor и действительный запуск Goose/Yandex |
 | `evidence/research_api_calls.jsonl` | Ответы OpenAlex/Wikidata с редактированными параметрами запроса |
-| `evidence/publisher_verification.json`, `thesis_verification.json` | Что проверил independent AI verifier; студентская проверка выделена отдельно |
+| `evidence/publisher_verification.json`, `thesis_verification.json` | Что проверил ИИ; студентская проверка выделена отдельно |
 | `evidence/checker_negative_cases.json` | Шесть испорченных примеров, которые валидатор отверг |
 | `diary.md` | Журнал реальных действий, сбоев, исправлений и кодов проверки |
 

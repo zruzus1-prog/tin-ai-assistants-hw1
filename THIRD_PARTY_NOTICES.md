@@ -22,5 +22,5 @@
   Wikidata не отправлялись.
 - **intfloat/multilingual-e5-small**: модель с Hugging Face, применяется локально
   как кодировщик; веса не включены. Версия и SHA256 находятся в `library/encoder.json`.
-- **Интеграция/проверки/отчёты**: independent AI verifier и DeepSeek в рамках этого ДЗ,
+- **Интеграция/проверки/отчёты**: ИИ и DeepSeek в рамках этого ДЗ,
   с разграничением ролей в `README.md`, `diary.md` и журналах.

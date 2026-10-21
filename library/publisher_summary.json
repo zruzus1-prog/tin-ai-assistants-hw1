@@ -4,7 +4,8 @@
     "status": "publisher_check_incomplete",
     "discrepancies": [],
     "publisher_url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.6b00468",
-    "student_review": "pending"
+    "student_review": "confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "openalex_id": "W2344885033",
@@ -14,7 +15,8 @@
       "Title identifies the work as a review; OpenAlex type remains article."
     ],
     "publisher_url": "https://www.jstage.jst.go.jp/article/kona/34/0/34_2017009/_article",
-    "student_review": "pending"
+    "student_review": "confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "openalex_id": "W2590450430",
@@ -24,7 +26,8 @@
       "Publisher abstract explicitly calls the work a review, while OpenAlex type is article."
     ],
     "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0079642517300269",
-    "student_review": "pending"
+    "student_review": "confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "openalex_id": "W4367393972",

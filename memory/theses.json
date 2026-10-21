@@ -12,7 +12,8 @@
         "quote": "was focused onto a TiN target placed on the bottom of a glass vessel filled with deionized water or acetone"
       }
     ],
-    "verification": "pending_student_review"
+    "verification": "student_confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "id": "T2",
@@ -27,7 +28,8 @@
         "quote": "about 100 μg mL"
       }
     ],
-    "verification": "pending_student_review"
+    "verification": "student_confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "id": "T3",
@@ -57,7 +59,8 @@
         "quote": "the mean size of synthesized TiN NPs was always around 30 nm"
       }
     ],
-    "verification": "pending_student_review"
+    "verification": "student_confirmed_via_review_record",
+    "student_review_record": "student_review.json"
   },
   {
     "id": "T5",
